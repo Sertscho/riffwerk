@@ -4,3 +4,26 @@
 - `docs/SPEC.md` — Ziele, Architektur, Liedformat, Design
 - `docs/PLAN.md` — Aufgaben mit Status
 - `filemap.md` — diese Übersicht
+- `index.html` — Hülle, lädt js/app.js und css/style.css
+- `manifest.webmanifest` — PWA-Manifest (Name, Farben, Icons 192/512)
+- `sw.js` — Service Worker, Cache-first für App-Dateien (Version riffwerk-v1)
+- `css/` — Stylesheets
+- `css/style.css` — Design-Tokens (:root) und Basis-Komponenten
+- `js/` — ES-Module
+- `js/app.js` — Hash-Router, lädt Views dynamisch, registriert Service Worker
+- `js/store.js` — localStorage-Wrapper (get/set, Präfix riffwerk:, try/catch)
+- `js/views/` — Ansichten, je export render(el, params)
+- `js/views/home.js` — Startseite mit Kacheln
+- `js/views/tuner.js` — Stimmgerät (Platzhalter)
+- `js/views/course.js` — Kurs und Lektionen (Platzhalter)
+- `js/views/songs.js` — Lieder (Platzhalter)
+- `js/views/play.js` — Spielansicht (Platzhalter)
+- `js/views/import.js` — Guitar-Pro-Import (Platzhalter)
+- `js/views/settings.js` — Einstellungen (Platzhalter)
+- `icons/` — App-Symbole
+- `icons/icon.svg` — Quellsymbol (Plektrum, Amber auf Dunkel)
+- `icons/icon-192.png` — Symbol 192×192
+- `icons/icon-512.png` — Symbol 512×512
+- `tests/` — node:test-Tests
+- `tests/smoke.test.js` — prüft das Manifest
+- `.claude/launch.json` — Startkonfiguration für den lokalen Server (Port 8000)

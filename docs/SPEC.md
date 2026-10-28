@@ -36,7 +36,8 @@ Konten/Login, Server, Videos, Songkatalog, Linkshänder-Modus, andere Stimmungen
 - Reines HTML/CSS/JavaScript (ES-Module), **kein Build-Schritt**, keine npm-Laufzeitabhängigkeiten.
 - alphaTab **1.3.1** nur für den Import, per `<script>`/Import von `https://cdn.jsdelivr.net/npm/@coderline/alphatab@1.3.1/dist/alphaTab.mjs` (wird erst beim Import geladen).
 - Web Audio API: `getUserMedia` (echoCancellation, noiseSuppression, autoGainControl **aus**), `AnalyserNode` (fftSize 4096).
-- Tests: `node --test tests/` (eingebauter Node-Testrunner, keine Pakete).
+- Tests: `node --test` (eingebauter Node-Testrunner, keine Pakete).
+- Testton: URL-Parameter `?testton=<Hz>[,<Hz>…]` ersetzt das Mikrofon durch Oszillatoren (Sägezahn), damit Stimmgerät und Highway ohne Gitarre prüfbar sind.
 - Hosting: GitHub Pages, Repo `Sertscho/riffwerk` (öffentlich), Branch `main`, Ordner `/`. URL: https://sertscho.github.io/riffwerk/
 - Alle Pfade relativ (die App liegt unter `/riffwerk/`).
 
@@ -81,7 +82,7 @@ Dunkel, Rock/Verstärker-Gefühl, eigenständig (nicht Simply kopieren).
 - Mikrofon-Freigabe: erst nach Tipp auf „Mikro starten“ anfragen (iOS verlangt Nutzergeste), verständliche Meldung bei Ablehnung.
 
 ## Definition of Done (MVP)
-- `node --test tests/` grün (Tonhöhe auf Sinus/Sägezahn ±3 Cent für alle 6 Leersaiten, Akkord-Match, Liedzeiten, GP-Umwandlung an Testdaten).
-- Playwright mit Fake-Mikrofon (WAV-Dateien): Stimmgerät erkennt jede Leersaite; Highway im Warte-Modus springt nach dem richtigen Ton weiter.
+- `node --test` grün (Tonhöhe auf Sinus/Sägezahn ±3 Cent für alle 6 Leersaiten, Akkord-Match, Liedzeiten, GP-Umwandlung an Testdaten).
+- Im Browser mit `?testton=`: Stimmgerät erkennt jede Leersaite; Highway im Warte-Modus springt nach dem richtigen Ton weiter.
 - Alle Seiten auf 375×812 und 812×375 ohne Fehler in der Konsole und ohne waagerechtes Scrollen.
 - Live auf GitHub Pages, Link in Repo-Beschreibung und Homepage-Feld.

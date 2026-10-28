@@ -4,8 +4,8 @@ Gitarren-Lern-PWA, reines HTML/CSS/JS (ES-Module), kein Build, keine npm-Pakete.
 
 ## Befehle
 - Lokal starten: `python3 -m http.server 8000` → http://localhost:8000
-- Tests: `node --test tests/`
-- E2E: `node tests/e2e.mjs` (Playwright ist vorinstalliert, nicht neu installieren)
+- Tests: `node --test` (findet alle `tests/*.test.js`)
+- Test ohne Gitarre: `?testton=110` an die URL hängen (mehrere Töne: `?testton=82.41,123.47,164.81`) – mic.js nimmt dann einen Oszillator statt des Mikrofons.
 
 ## Regeln
 - Antworten und UI-Texte auf Deutsch.

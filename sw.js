@@ -1,5 +1,5 @@
 // Cache-Version erhöhen, sobald sich App-Dateien ändern.
-const CACHE = 'riffwerk-v1';
+const CACHE = 'riffwerk-v3';
 const SHELL = [
   './',
   'index.html',

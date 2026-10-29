@@ -11,16 +11,16 @@ notes.js, song.js, pitch.js (YIN, Schwelle 0.15, Bereich 70–1200 Hz), chroma.j
 ## 3. Inhalte: Lieder + Kurs — Medium — nach 1  [x]
 data/songs/erster-riff.json, garagen-rock.json, house-of-the-rising-sun.json und data/course.json (8 Lektionen laut SPEC, je Text, Griffbild-Daten {string,fret,finger}, Übung = Liste von Ereignissen oder Lied-ID). Musikalisch sinnvoll, für Anfänger spielbar, ca. 16–32 Takte pro Lied. Test: alle Dateien erfüllen das Liedformat (Validator aus song.js oder eigener Test).
 
-## 4. Stimmgerät-Ansicht — Medium — nach 2  [ ]
+## 4. Stimmgerät-Ansicht — Medium — nach 2  [x]
 views/tuner.js: „Mikro starten“-Knopf, große Notenanzeige, Nadel −50…+50 Cent, Wortanzeige, 6 Saiten-Chips (erkannte leuchtet), Glättung über ~5 Frames. Prüfen: im Browser mit `?testton=110` usw.
 
-## 5. Spielansicht (Highway) — Careful — nach 2, 3  [ ]
+## 5. Spielansicht (Highway) — Careful — nach 2, 3  [x]
 views/play.js mit Canvas (devicePixelRatio beachten), Warte- und Takt-Modus, Tempo, Loop A–B, Metronom, Latenz-Ausgleich, Trefferfenster, Ergebnis-Bildschirm (Treffer %, Sterne), Fortschritt speichern. Gleichmäßige 60 fps per requestAnimationFrame, Zeit aus AudioContext.currentTime. Querformat-Hinweis. Prüfen: mit `?testton=` springt der Warte-Modus weiter.
 
-## 6. Kurs-, Lieder-, Start-, Einstellungs-Ansichten — Medium — nach 3  [ ]
+## 6. Kurs-, Lieder-, Start-, Einstellungs-Ansichten — Medium — nach 3  [x]
 home.js, course.js (Lektionsliste mit Häkchen, Lektionsseite mit SVG-Griffbild), songs.js (eingebaute + importierte Lieder), settings.js (Latenz, Metronom, Fortschritt zurücksetzen).
 
-## 7. Guitar-Pro-Import — Medium — nach 2  [ ]
+## 7. Guitar-Pro-Import — Medium — nach 2  [x]
 gp-import.js + views/import.js: Datei wählen, alphaTab 1.3.1 dynamisch laden, Spur wählen (Gitarrenspuren vorauswählen), Umwandlung (Tempo, Takte, Noten mit Saite/Bund; alphaTab-Saitennummern umrechnen), speichern. Test mit einer selbst erzeugten kleinen GP-Datei oder alphaTex.
 
 ## 8. Gesamttest — Orchestrator im Browser-Bereich — nach 4–7  [ ]

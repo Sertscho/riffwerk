@@ -6,20 +6,20 @@
 - `filemap.md` — diese Übersicht
 - `index.html` — Hülle, lädt js/app.js und css/style.css
 - `manifest.webmanifest` — PWA-Manifest (Name, Farben, Icons 192/512)
-- `sw.js` — Service Worker, Cache-first für App-Dateien (Version riffwerk-v1)
+- `sw.js` — Service Worker, Cache-first für App-Dateien (Version riffwerk-v2)
 - `css/` — Stylesheets
 - `css/style.css` — Design-Tokens (:root) und Basis-Komponenten
 - `js/` — ES-Module
 - `js/app.js` — Hash-Router, lädt Views dynamisch, registriert Service Worker
 - `js/store.js` — localStorage-Wrapper (get/set, Präfix riffwerk:, try/catch)
 - `js/views/` — Ansichten, je export render(el, params)
-- `js/views/home.js` — Startseite mit Kacheln
+- `js/views/home.js` — Startseite: Weiter-lernen-Karte und Kacheln
 - `js/views/tuner.js` — Stimmgerät (Platzhalter)
-- `js/views/course.js` — Kurs und Lektionen (Platzhalter)
-- `js/views/songs.js` — Lieder (Platzhalter)
+- `js/views/course.js` — Kursliste, Lektionsseite mit Griffbildern
+- `js/views/songs.js` — Lieder (eingebaut und importiert, Löschen)
 - `js/views/play.js` — Spielansicht (Platzhalter)
 - `js/views/import.js` — Guitar-Pro-Import (Platzhalter)
-- `js/views/settings.js` — Einstellungen (Platzhalter)
+- `js/views/settings.js` — Latenz, Metronom, Fortschritt zurücksetzen
 - `icons/` — App-Symbole
 - `icons/icon.svg` — Quellsymbol (Plektrum, Amber auf Dunkel)
 - `icons/icon-192.png` — Symbol 192×192
@@ -39,3 +39,7 @@
 - `js/audio/chroma.js` — chromaFromSpectrum, matchChord
 - `js/audio/mic.js` — startInput (Mikrofon oder ?testton=, Browser)
 - `tests/notes.test.js`, `tests/song.test.js`, `tests/pitch.test.js`, `tests/chroma.test.js` — Tests dazu
+- `js/music/gp-import.js` — Guitar-Pro-Datei (alphaTab 1.3.1 vom CDN) → Liedformat
+- `js/play/logic.js` — reine Spiellogik: Trefferfenster, Onset, Loop, Punkte, Sterne
+- `tests/gp-import.test.js` — prüft die GP-Umwandlung
+- `tests/play.test.js` — prüft die Spiellogik

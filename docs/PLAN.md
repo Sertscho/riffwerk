@@ -5,7 +5,7 @@ Status: [ ] offen · [x] abgenommen. Stufen: Light = Haiku, Medium = Sonnet, Car
 ## 1. Gerüst — Light — keine Abhängigkeit  [x]
 Ordner und Dateien laut SPEC „Architektur“ anlegen: index.html (Viewport mit viewport-fit=cover, Theme-Farbe, Manifest-Link, apple-mobile-web-app-capable), css/style.css mit allen Design-Tokens aus SPEC „Design“, js/app.js mit Hash-Router und Platzhalter-Views, store.js, manifest.webmanifest, sw.js (Cache-first für App-Dateien), einfaches Gitarrenkopf-Symbol als SVG + PNG 192/512, .claude/launch.json (`python3 -m http.server 8000`). Prüfen: Server starten, alle Routen öffnen, keine Konsolenfehler.
 
-## 2. Musik- und Audio-Kern — Medium — nach 1  [ ]
+## 2. Musik- und Audio-Kern — Medium — nach 1  [x]
 notes.js, song.js, pitch.js (YIN, Schwelle 0.15, Bereich 70–1200 Hz), chroma.js, mic.js. Tests in tests/ mit erzeugten Signalen (Sinus + Sägezahn mit Obertönen, 44.1 kHz) für alle 6 Leersaiten (±3 Cent), Stille → null, Akkord-Match für E5, Em, Am, C positiv und gegenseitig negativ. Prüfen: `node --test`. mic.js unterstützt `?testton=` (siehe SPEC).
 
 ## 3. Inhalte: Lieder + Kurs — Medium — nach 1  [x]

@@ -23,7 +23,7 @@ home.js, course.js (Lektionsliste mit Häkchen, Lektionsseite mit SVG-Griffbild)
 ## 7. Guitar-Pro-Import — Medium — nach 2  [x]
 gp-import.js + views/import.js: Datei wählen, alphaTab 1.3.1 dynamisch laden, Spur wählen (Gitarrenspuren vorauswählen), Umwandlung (Tempo, Takte, Noten mit Saite/Bund; alphaTab-Saitennummern umrechnen), speichern. Test mit einer selbst erzeugten kleinen GP-Datei oder alphaTex.
 
-## 8. Gesamttest — Orchestrator im Browser-Bereich — nach 4–7  [ ]
+## 8. Gesamttest — Orchestrator im Browser-Bereich — nach 4–7  [x]
 Alle Routen bei 375×812 und 812×375, Konsolenfehler, waagerechtes Scrollen, Stimmgerät + Highway mit `?testton=`. Screenshots.
 
 ## 9. Veröffentlichen — Light — nach 8 und Abnahme  [ ]

@@ -234,3 +234,8 @@ a { color: var(--accent); }
 .play-pct { font-size: 64px; font-weight: 800; color: var(--accent); line-height: 1; }
 .play-stars { font-size: 36px; color: var(--accent); letter-spacing: 6px; }
 .play-new { color: var(--hit); font-weight: 700; font-size: 18px; }
+
+/* Lektionsbilder */
+.lesson-img { margin: 0 0 16px; background: var(--surface); border-radius: 14px; padding: 12px; }
+.lesson-img img { display: block; width: 100%; height: auto; }
+.lesson-img figcaption { margin-top: 8px; color: var(--muted); font-size: 14px; line-height: 1.4; }

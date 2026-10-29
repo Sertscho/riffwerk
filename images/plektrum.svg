@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 220" font-family="-apple-system,system-ui,sans-serif" role="img" aria-label="Plektrum zwischen Daumen und Zeigefinger halten">
+  <g fill="none" stroke-linecap="round">
+    <path d="M6 92 C80 72 160 62 180 104 C192 130 172 150 146 146" stroke="#c98a62" stroke-width="33"/>
+    <path d="M6 92 C80 72 160 62 180 104 C192 130 172 150 146 146" stroke="#f0c09a" stroke-width="28"/>
+  </g>
+  <path d="M170 116 L216 120 L196 154 Z" fill="#ff9f1c" stroke="#ff9f1c" stroke-width="12" stroke-linejoin="round"/>
+  <g fill="none" stroke-linecap="round">
+    <path d="M30 150 C90 140 150 130 200 128" stroke="#c98a62" stroke-width="31"/>
+    <path d="M30 150 C90 140 150 130 200 128" stroke="#f0c09a" stroke-width="26"/>
+  </g>
+  <ellipse cx="200" cy="126" rx="9" ry="6" fill="#fbe3cf"/>
+  <g font-size="12" fill="#f3eee8">
+    <text x="210" y="40">Zeigefinger gekrümmt,</text><text x="210" y="55">Plektrum liegt seitlich</text><text x="210" y="70">am letzten Glied</text>
+    <text x="12" y="196">Daumen liegt</text><text x="12" y="211">flach darauf</text>
+    <text x="332" y="190" text-anchor="end">Spitze schaut nur</text><text x="332" y="205" text-anchor="end">2–3 mm heraus</text>
+  </g>
+  <g stroke="#ff9f1c" stroke-width="1.5" fill="none"><path d="M215 76 L182 100"/><path d="M60 182 L80 152"/><path d="M250 180 L206 168"/></g>
+  <g fill="#ff9f1c"><circle cx="182" cy="100" r="2.5"/><circle cx="80" cy="152" r="2.5"/><circle cx="206" cy="168" r="2.5"/></g>
+</svg>

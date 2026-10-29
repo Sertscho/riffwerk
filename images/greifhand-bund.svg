@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 220" font-family="-apple-system,system-ui,sans-serif" role="img" aria-label="Wo der Finger hinter dem Bundstab aufsetzt">
+  <g font-size="11" fill="#9b938c"><text x="15" y="24">← Kopf der Gitarre</text><text x="325" y="24" text-anchor="end">Korpus →</text></g>
+  <rect x="5" y="36" width="330" height="112" rx="4" fill="#3a281d"/>
+  <g fill="#c9c9c9"><rect x="13" y="36" width="5" height="112"/><rect x="113" y="36" width="5" height="112"/><rect x="213" y="36" width="5" height="112"/><rect x="313" y="36" width="5" height="112"/></g>
+  <g stroke="#d9d4cc"><line x1="5" x2="335" y1="47" y2="47" stroke-width="3"/><line x1="5" x2="335" y1="65" y2="65" stroke-width="2.6"/><line x1="5" x2="335" y1="83" y2="83" stroke-width="2.2"/><line x1="5" x2="335" y1="101" y2="101" stroke-width="1.8"/><line x1="5" x2="335" y1="119" y2="119" stroke-width="1.4"/><line x1="5" x2="335" y1="137" y2="137" stroke-width="1.1"/></g>
+  <g stroke-linecap="round" fill="none">
+    <path d="M104 65 V150" stroke="#c98a62" stroke-width="27"/><path d="M104 65 V150" stroke="#f0c09a" stroke-width="22"/>
+    <path d="M165 65 V150" stroke="#c98a62" stroke-width="27"/><path d="M165 65 V150" stroke="#f0c09a" stroke-width="22"/>
+    <path d="M315 65 V150" stroke="#c98a62" stroke-width="27"/><path d="M315 65 V150" stroke="#f0c09a" stroke-width="22"/>
+  </g>
+  <g fill="#fbe3cf"><ellipse cx="104" cy="68" rx="7" ry="5"/><ellipse cx="165" cy="68" rx="7" ry="5"/><ellipse cx="315" cy="68" rx="7" ry="5"/></g>
+  <g font-size="12" text-anchor="middle">
+    <text x="66" y="176" fill="#3ddc84" font-weight="600">✓ Richtig</text><text x="66" y="193" fill="#f3eee8">kurz vor dem</text><text x="66" y="208" fill="#f3eee8">Bundstab</text>
+    <text x="166" y="176" fill="#ff9f1c" font-weight="600">Geht</text><text x="166" y="193" fill="#f3eee8">braucht aber</text><text x="166" y="208" fill="#f3eee8">mehr Kraft</text>
+    <text x="276" y="176" fill="#ff4d4d" font-weight="600">✗ Falsch</text><text x="276" y="193" fill="#f3eee8">auf dem Stab:</text><text x="276" y="208" fill="#f3eee8">klingt dumpf</text>
+  </g>
+</svg>

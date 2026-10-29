@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 240" font-family="-apple-system,system-ui,sans-serif" role="img" aria-label="Greifhand von der Seite: Fingerkuppe drückt steil, Daumen hinten am Hals">
+  <g fill="#9b938c" font-size="11" text-anchor="middle"><text x="92" y="80">E</text><text x="117" y="80">A</text><text x="142" y="80">D</text><text x="167" y="80">G</text><text x="192" y="80">H</text><text x="217" y="80">e</text></g>
+  <path d="M82 108 H222 C226 142 196 172 152 172 C108 172 78 142 82 108 Z" fill="#9a6b45"/>
+  <rect x="80" y="98" width="144" height="11" rx="2" fill="#3a281d"/>
+  <g fill="#d9d4cc"><circle cx="92" cy="94" r="5"/><circle cx="117" cy="94" r="4.5"/><circle cx="142" cy="94" r="4"/><circle cx="167" cy="94" r="3.5"/><circle cx="192" cy="94" r="3"/><circle cx="217" cy="94" r="2.6"/></g>
+  <ellipse cx="282" cy="200" rx="46" ry="34" fill="#f0c09a" stroke="#c98a62" stroke-width="3"/>
+  <g fill="none" stroke-linecap="round">
+    <path d="M262 186 C230 186 196 186 166 182" stroke="#c98a62" stroke-width="27"/>
+    <path d="M262 186 C230 186 196 186 166 182" stroke="#f0c09a" stroke-width="22"/>
+    <path d="M266 178 C276 120 256 62 208 52 C172 46 150 60 144 82" stroke="#c98a62" stroke-width="27"/>
+    <path d="M266 178 C276 120 256 62 208 52 C172 46 150 60 144 82" stroke="#f0c09a" stroke-width="22"/>
+  </g>
+  <ellipse cx="277" cy="190" rx="36" ry="24" fill="#f0c09a"/>
+  <path d="M137 70 Q146 64 155 70" fill="none" stroke="#fbe3cf" stroke-width="4" stroke-linecap="round"/>
+  <g font-size="12" fill="#f3eee8">
+    <text x="12" y="30">Fingerkuppe drückt</text><text x="12" y="45">steil von oben</text>
+    <text x="12" y="214">Daumen hinten,</text><text x="12" y="229">ungefähr mittig</text>
+    <text x="332" y="16" text-anchor="end">Handfläche</text><text x="332" y="31" text-anchor="end">berührt den</text><text x="332" y="46" text-anchor="end">Hals nicht</text>
+  </g>
+  <g stroke="#ff9f1c" stroke-width="1.5" fill="none"><path d="M92 50 L136 74"/><path d="M92 208 L150 186"/><path d="M318 52 L232 140"/></g>
+  <g fill="#ff9f1c"><circle cx="136" cy="74" r="2.5"/><circle cx="150" cy="186" r="2.5"/><circle cx="232" cy="140" r="2.5"/></g>
+</svg>

@@ -60,3 +60,11 @@ test('Kurs', () => {
     else assert.equal(x.type, 'tuner');
   }
 });
+
+test('Lektionsbilder existieren und haben Text', () => {
+  const course = JSON.parse(fs.readFileSync(new URL('../data/course.json', import.meta.url)));
+  for (const l of course) for (const im of l.images || []) {
+    assert.ok(fs.existsSync(new URL('../' + im.src, import.meta.url)), im.src);
+    assert.ok(im.alt && im.caption, `Lektion ${l.n}: alt/caption fehlt`);
+  }
+});

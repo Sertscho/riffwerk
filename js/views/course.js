@@ -78,6 +78,15 @@ export async function render(el, params) {
   top.append(back, h('h1', null, `Lektion ${lesson.n}`));
   page.append(top, h('h2', 'lesson-title', lesson.title));
   for (const p of lesson.intro || []) page.append(h('p', 'para', p));
+  for (const im of lesson.images || []) {
+    const fig = h('figure', 'lesson-img');
+    const img = h('img');
+    img.src = im.src;
+    img.alt = im.alt;
+    img.loading = 'lazy';
+    fig.append(img, h('figcaption', null, im.caption));
+    page.append(fig);
+  }
   if (lesson.tips?.length) {
     const card = h('div', 'card');
     card.append(h('strong', null, 'Tipps'));

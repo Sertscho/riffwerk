@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 250" font-family="-apple-system,system-ui,sans-serif" role="img" aria-label="Greifhand mit Fingernummern 1 bis 4">
+  <g fill="#f0c09a" stroke="#c98a62" stroke-width="3">
+    <rect x="86" y="74" width="30" height="100" rx="15"/>
+    <rect x="120" y="40" width="32" height="130" rx="16"/>
+    <rect x="156" y="30" width="32" height="140" rx="16"/>
+    <rect x="192" y="44" width="32" height="126" rx="16"/>
+    <path d="M222 168 C238 150 252 128 268 112 C278 102 292 110 286 124 C276 148 262 176 240 196 Z"/>
+    <rect x="84" y="138" width="150" height="100" rx="44"/>
+  </g>
+  <g fill="#ff9f1c"><circle cx="101" cy="94" r="12"/><circle cx="136" cy="60" r="12"/><circle cx="172" cy="50" r="12"/><circle cx="208" cy="64" r="12"/></g>
+  <g font-size="14" font-weight="700" fill="#2a1700" text-anchor="middle"><text x="101" y="99">4</text><text x="136" y="65">3</text><text x="172" y="55">2</text><text x="208" y="69">1</text></g>
+  <g font-size="12" fill="#f3eee8">
+    <text x="10" y="20">Linke Hand, Handfläche zu dir</text>
+    <text x="236" y="40">1 Zeigefinger</text><text x="236" y="56">2 Mittelfinger</text><text x="236" y="72">3 Ringfinger</text><text x="236" y="88">4 kleiner Finger</text>
+    <text x="294" y="160">Daumen:</text><text x="294" y="175">bleibt</text><text x="294" y="190">hinten</text>
+  </g>
+</svg>

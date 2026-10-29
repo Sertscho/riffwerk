@@ -43,3 +43,4 @@
 - `js/play/logic.js` — reine Spiellogik: Trefferfenster, Onset, Loop, Punkte, Sterne
 - `tests/gp-import.test.js` — prüft die GP-Umwandlung
 - `tests/play.test.js` — prüft die Spiellogik
+- `images/` — eigene SVG-Bilder zur Hand- und Spielhaltung, in data/course.json als `images` je Lektion

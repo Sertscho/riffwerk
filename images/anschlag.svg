@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 230" font-family="-apple-system,system-ui,sans-serif" role="img" aria-label="Anschlag: zwischen Tonabnehmer und Steg, Ab und Auf, Handkante zum Dämpfen">
+  <rect x="0" y="38" width="340" height="128" rx="12" fill="#7a2e22"/>
+  <rect x="0" y="44" width="38" height="116" fill="#3a281d"/>
+  <rect x="130" y="48" width="40" height="108" rx="6" fill="#1b1b1b" stroke="#555"/>
+  <g fill="#888"><circle cx="150" cy="60" r="3"/><circle cx="150" cy="76" r="3"/><circle cx="150" cy="92" r="3"/><circle cx="150" cy="108" r="3"/><circle cx="150" cy="124" r="3"/><circle cx="150" cy="140" r="3"/></g>
+  <rect x="284" y="46" width="22" height="112" rx="3" fill="#9a9a9a"/>
+  <g stroke="#d9d4cc"><line x1="0" x2="296" y1="60" y2="60" stroke-width="3"/><line x1="0" x2="296" y1="76" y2="76" stroke-width="2.6"/><line x1="0" x2="296" y1="92" y2="92" stroke-width="2.2"/><line x1="0" x2="296" y1="108" y2="108" stroke-width="1.8"/><line x1="0" x2="296" y1="124" y2="124" stroke-width="1.4"/><line x1="0" x2="296" y1="140" y2="140" stroke-width="1.1"/></g>
+  <ellipse cx="286" cy="100" rx="18" ry="58" fill="#f0c09a" opacity=".55" stroke="#f0c09a" stroke-dasharray="4 3"/>
+  <path d="M205 96 L234 100 L217 118 Z" fill="#ff9f1c" stroke="#ff9f1c" stroke-width="6" stroke-linejoin="round"/>
+  <g stroke="#ff9f1c" stroke-width="3" fill="#ff9f1c">
+    <line x1="252" y1="58" x2="252" y2="132"/><path d="M244 128 L252 142 L260 128 Z"/>
+    <line x1="268" y1="142" x2="268" y2="68" stroke="#3ddc84"/><path d="M260 72 L268 58 L276 72 Z" fill="#3ddc84" stroke="#3ddc84"/>
+  </g>
+  <g font-size="12" fill="#f3eee8">
+    <text x="8" y="22">Hier anschlagen: zwischen Tonabnehmer und Steg</text>
+    <text x="8" y="186"><tspan fill="#ff9f1c" font-weight="600">Ab ↓</tspan> von der dicken zur dünnen Saite,</text>
+    <text x="8" y="202"><tspan fill="#3ddc84" font-weight="600">Auf ↑</tspan> zurück. Locker aus dem Handgelenk.</text>
+    <text x="8" y="222">Gestrichelt: Handkante leicht auflegen = dämpfen</text>
+  </g>
+</svg>

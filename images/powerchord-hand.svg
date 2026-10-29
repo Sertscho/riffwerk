@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 240" font-family="-apple-system,system-ui,sans-serif" role="img" aria-label="Power-Chord G5: Zeigefinger auf Saite 6 Bund 3, Ringfinger auf Saite 5 Bund 5">
+  <rect x="20" y="54" width="316" height="112" fill="#3a281d"/>
+  <rect x="16" y="54" width="8" height="112" fill="#efe9dd"/>
+  <g fill="#c9c9c9"><rect x="76" y="54" width="4" height="112"/><rect x="134" y="54" width="4" height="112"/><rect x="192" y="54" width="4" height="112"/><rect x="250" y="54" width="4" height="112"/><rect x="308" y="54" width="4" height="112"/></g>
+  <g stroke="#d9d4cc"><line x1="20" x2="336" y1="64" y2="64" stroke-width="3"/><line x1="20" x2="336" y1="82" y2="82" stroke-width="2.6"/><line x1="20" x2="336" y1="100" y2="100" stroke-width="2.2"/><line x1="20" x2="336" y1="118" y2="118" stroke-width="1.8"/><line x1="20" x2="336" y1="136" y2="136" stroke-width="1.4"/><line x1="20" x2="336" y1="154" y2="154" stroke-width="1.1"/></g>
+  <g font-size="11" fill="#9b938c" text-anchor="end"><text x="12" y="68">E</text><text x="12" y="86">A</text><text x="12" y="104">D</text><text x="12" y="122">G</text><text x="12" y="140">H</text><text x="12" y="158">e</text></g>
+  <g font-size="11" fill="#9b938c" text-anchor="middle"><text x="50" y="50">1</text><text x="107" y="50">2</text><text x="165" y="50">3</text><text x="223" y="50">4</text><text x="281" y="50">5</text></g>
+  <g stroke-linecap="round" fill="none">
+    <path d="M176 66 L169 182" stroke="#c98a62" stroke-width="25"/><path d="M176 66 L169 182" stroke="#f0c09a" stroke-width="20" opacity=".92"/>
+    <path d="M296 84 L299 182" stroke="#c98a62" stroke-width="25"/><path d="M296 84 L299 182" stroke="#f0c09a" stroke-width="20" opacity=".92"/>
+  </g>
+  <g fill="#ff9f1c"><circle cx="176" cy="66" r="10"/><circle cx="296" cy="84" r="10"/></g>
+  <g font-size="13" font-weight="700" fill="#2a1700" text-anchor="middle"><text x="176" y="71">1</text><text x="296" y="89">3</text></g>
+  <g font-size="12" fill="#f3eee8">
+    <text x="8" y="20"><tspan fill="#ff9f1c" font-weight="600">1</tspan> Zeigefinger: Saite E, 3. Bund</text>
+    <text x="8" y="38"><tspan fill="#ff9f1c" font-weight="600">3</tspan> Ringfinger: Saite A, 5. Bund</text>
+    <text x="8" y="204">Die Finger liegen leicht auf den</text><text x="8" y="219">dünnen Saiten und dämpfen sie.</text><text x="8" y="234">So klingen nur die zwei gegriffenen.</text>
+  </g>
+</svg>

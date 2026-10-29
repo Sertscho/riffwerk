@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "tiny-text",
+        "value": "*",
+        "files": [
+          "entwuerfe.html"
+        ],
+        "createdAt": "2026-10-29T19:26:34.894Z",
+        "reason": "Claude: verkleinerte Handy-Mockups in einer Entwurfsseite, Text im Mockup ist absichtlich klein"
+      }
+    ]
+  }
+}

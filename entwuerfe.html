@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Riffwerk – Startseiten-Entwürfe</title>
+<style>
+body{margin:0;background:#121014;color:#f3eee8;font-family:-apple-system,system-ui,sans-serif;padding:20px 16px 40px}
+h1{font-size:20px;margin:0 0 4px;text-align:center}
+.hint{color:#9b938c;font-size:14px;text-align:center;margin:0 0 18px}
+.rw-wrap{display:flex;flex-wrap:wrap;gap:28px;justify-content:center}
+.rw-col{display:flex;flex-direction:column;align-items:center;gap:8px}
+.rw-ph{width:220px;height:440px;border-radius:30px;border:6px solid #2a262d;overflow:hidden;position:relative;background:#0d0b0c;color:#fff;cursor:pointer}
+.rw-home{position:absolute;inset:0;padding:0 0 10px}
+.rw-splash{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;z-index:5}
+.rw-tile{margin:6px 10px 0;padding:9px 10px;border-radius:10px;font-size:11px;font-weight:600;display:flex;gap:8px;align-items:center}
+.rw-card{margin:10px 10px 0;padding:10px;border-radius:12px;font-size:10px}
+.rw-card b{display:block;font-size:12px;margin-top:2px}
+.rw-bar{height:4px;border-radius:2px;margin-top:7px;background:rgba(0,0,0,.25)}
+.rw-bar i{display:block;width:35%;height:4px;border-radius:2px;background:currentColor}
+.name{font-size:16px;font-weight:700}
+.desc{font-size:13px;color:#9b938c;max-width:230px;text-align:center;line-height:1.4}
+button{font:inherit;font-size:15px;font-weight:600;background:#ff9f1c;color:#2a1700;border:0;border-radius:12px;padding:12px 20px;min-height:48px}
+.play .arm{animation:strum 1.6s cubic-bezier(.6,0,.2,1) forwards}
+.play .shake{animation:shake .35s 1.02s}
+.play .flash{animation:flash .5s 1.02s}
+.play .boom{animation:boom .7s 1.02s both}
+.play .rw-splash{animation:out .5s 1.75s forwards}
+.play .wave{animation:wave .7s 1.05s both}
+.boom{opacity:0}
+.loopbang .head{animation:bang .5s infinite alternate ease-in-out;transform-origin:60px 52px}
+.loopstrum .arm{animation:loop .5s infinite alternate ease-in-out}
+.arm{transform-origin:68px 62px}
+@keyframes strum{0%{transform:rotate(0)}55%{transform:rotate(-70deg)}64%{transform:rotate(35deg)}100%{transform:rotate(20deg)}}
+@keyframes loop{from{transform:rotate(-25deg)}to{transform:rotate(18deg)}}
+@keyframes bang{from{transform:rotate(-8deg)}to{transform:rotate(14deg)}}
+@keyframes shake{0%,100%{transform:translate(0)}20%{transform:translate(-6px,3px)}40%{transform:translate(5px,-4px)}60%{transform:translate(-4px,2px)}80%{transform:translate(3px,-2px)}}
+@keyframes flash{0%{opacity:0}15%{opacity:.9}100%{opacity:0}}
+@keyframes boom{0%{opacity:0;transform:scale(.3) rotate(-12deg)}30%{opacity:1;transform:scale(1.15) rotate(-8deg)}100%{opacity:1;transform:scale(1) rotate(-8deg)}}
+@keyframes out{to{opacity:0;transform:scale(1.4);visibility:hidden}}
+@keyframes wave{from{opacity:.9;transform:scale(.2)}to{opacity:0;transform:scale(2.4)}}
+@keyframes pulse{from{transform:scale(1)}to{transform:scale(1.08)}}
+@keyframes needle{from{transform:rotate(-40deg)}to{transform:rotate(30deg)}}
+@keyframes jump{from{transform:translateY(0)}to{transform:translateY(-8px)}}
+</style>
+</head>
+<body>
+<h1>Riffwerk · Startseite: 3 Entwürfe</h1>
+<p class="hint">Tippe auf ein Handy, um sein Intro nochmal zu sehen.</p>
+<div class="rw-wrap">
+
+<div class="rw-col">
+<div class="rw-ph" id="p1">
+ <div class="rw-home">
+  <div style="height:170px;background:#0d0b0c;position:relative;overflow:hidden">
+   <svg viewBox="0 0 220 170" width="220" height="170" style="position:absolute;inset:0">
+    <polygon points="85,0 135,0 190,170 30,170" fill="#e10600" opacity=".35"/>
+    <rect x="0" y="150" width="220" height="20" fill="#1a1415"/>
+    <g fill="#222" stroke="#444"><rect x="8" y="96" width="40" height="56" rx="3"/><rect x="172" y="96" width="40" height="56" rx="3"/></g>
+    <g fill="#111"><circle cx="28" cy="112" r="9"/><circle cx="28" cy="136" r="9"/><circle cx="192" cy="112" r="9"/><circle cx="192" cy="136" r="9"/></g>
+    <g class="loopbang loopstrum" transform="translate(50,22)"><g class="rocker"></g></g>
+   </svg>
+   <div style="position:absolute;left:12px;top:24px;font-weight:900;font-style:italic;font-size:22px;letter-spacing:-.5px">RIFF<span style="color:#e10600">WERK</span></div>
+  </div>
+  <div class="rw-card" style="background:#e10600;color:#fff">Weiter lernen<b>Lektion 4: Power-Chord E5</b><div class="rw-bar"><i></i></div></div>
+  <div class="rw-tile" style="background:#1c1718"><span style="color:#e10600">●</span>Stimmen</div>
+  <div class="rw-tile" style="background:#1c1718"><span style="color:#e10600">●</span>Kurs · 3 von 8</div>
+  <div class="rw-tile" style="background:#1c1718"><span style="color:#e10600">●</span>Lieder</div>
+ </div>
+ <div class="rw-splash shake" style="background:#0d0b0c">
+  <svg viewBox="0 0 220 440" width="220" height="440" style="position:absolute;inset:0">
+   <polygon points="80,0 140,0 210,440 10,440" fill="#e10600" opacity=".3"/>
+   <circle class="wave" cx="125" cy="250" r="40" fill="none" stroke="#fff" stroke-width="4" style="transform-origin:125px 250px"/>
+   <g transform="translate(30,140) scale(1.3)"><g class="rocker"></g></g>
+  </svg>
+  <div class="boom" style="position:absolute;top:60px;font-weight:900;font-style:italic;font-size:34px;color:#fff;text-shadow:3px 3px 0 #e10600">BRAAANG!</div>
+  <div class="flash" style="position:absolute;inset:0;background:#fff;opacity:0"></div>
+ </div>
+</div>
+<div class="name">A · Bühne</div>
+<div class="desc">Rocker im roten Spot schlägt einmal hart an, Blitz, dann Startseite. Oben headbangt er weiter.</div>
+</div>
+
+<div class="rw-col">
+<div class="rw-ph" id="p2" style="background:#fff;color:#111">
+ <div class="rw-home" style="background:#0d0b0c">
+  <div style="height:178px;background:#e10600;position:relative;overflow:hidden">
+   <svg viewBox="0 0 220 178" width="220" height="178" style="position:absolute;inset:0">
+    <g fill="#000" opacity=".18"><circle cx="160" cy="20" r="6"/><circle cx="178" cy="20" r="5"/><circle cx="196" cy="20" r="4"/><circle cx="169" cy="36" r="5"/><circle cx="187" cy="36" r="4"/><circle cx="205" cy="36" r="3"/><circle cx="178" cy="52" r="4"/><circle cx="196" cy="52" r="3"/></g>
+    <polygon points="150,10 128,82 146,82 132,150 178,62 158,62 176,10" fill="#fff"/>
+    <g style="animation:jump .45s infinite alternate ease-in-out"><g class="loopstrum" transform="translate(98,40) scale(1.05)"><g class="rocker"></g></g></g>
+    <path d="M0 160 L20 170 L40 158 L60 172 L80 160 L100 171 L120 159 L140 172 L160 160 L180 170 L200 158 L220 168 V178 H0Z" fill="#0d0b0c"/>
+   </svg>
+   <div style="position:absolute;left:12px;top:18px;font-weight:900;font-size:34px;line-height:.85;color:#000;letter-spacing:-1px">RIFF<br>WERK</div>
+   <div style="position:absolute;left:12px;top:92px;font-size:10px;font-weight:700;background:#000;color:#fff;padding:3px 6px;transform:rotate(-3deg)">LIVE · HEUTE: E5</div>
+  </div>
+  <div class="rw-card" style="background:#fff;color:#000;border:3px solid #000">Weiter lernen<b>Lektion 4: Power-Chord E5</b><div class="rw-bar" style="color:#e10600"><i></i></div></div>
+  <div class="rw-tile" style="background:#0d0b0c;border:2px solid #fff;color:#fff">Stimmen</div>
+  <div class="rw-tile" style="background:#0d0b0c;border:2px solid #e10600;color:#fff">Kurs · 3 von 8</div>
+  <div class="rw-tile" style="background:#0d0b0c;border:2px solid #fff;color:#fff">Lieder</div>
+ </div>
+ <div class="rw-splash shake" style="background:#e10600">
+  <svg viewBox="0 0 220 440" width="220" height="440" style="position:absolute;inset:0">
+   <g stroke="#000" stroke-width="3"><path class="wave" d="M0 200 Q110 200 220 200" style="transform-origin:110px 200px"/><line x1="0" y1="215" x2="220" y2="215"/><line x1="0" y1="230" x2="220" y2="230"/><line x1="0" y1="245" x2="220" y2="245"/><line x1="0" y1="260" x2="220" y2="260"/><line x1="0" y1="275" x2="220" y2="275"/></g>
+   <g class="arm" style="transform-origin:200px 380px"><path d="M200 380 L120 250" stroke="#fff" stroke-width="22" stroke-linecap="round"/><polygon points="108,226 136,236 116,262" fill="#000"/></g>
+  </svg>
+  <div class="boom" style="position:absolute;top:70px;font-weight:900;font-size:38px;color:#000;background:#fff;padding:2px 10px">ZONG!</div>
+  <div class="flash" style="position:absolute;inset:0;background:#000;opacity:0"></div>
+ </div>
+</div>
+<div class="name">B · Konzertplakat</div>
+<div class="desc">Nahaufnahme: Hand mit Plektrum fetzt über die Saiten, Plakat-Look mit Blitz. Oben springt der Rocker.</div>
+</div>
+
+<div class="rw-col">
+<div class="rw-ph" id="p3">
+ <div class="rw-home">
+  <div style="height:178px;position:relative;overflow:hidden;background:#141112">
+   <svg viewBox="0 0 220 178" width="220" height="178" style="position:absolute;inset:0">
+    <rect x="10" y="14" width="200" height="120" rx="8" fill="#111" stroke="#fff" stroke-width="2"/>
+    <rect x="18" y="20" width="184" height="20" rx="3" fill="#e10600"/>
+    <text x="26" y="35" font-size="13" font-weight="900" font-style="italic" fill="#fff">RIFFWERK</text>
+    <g fill="#fff"><circle cx="150" cy="30" r="5"/><circle cx="166" cy="30" r="5"/><circle cx="182" cy="30" r="5"/></g>
+    <g fill="#2a2526" stroke="#000"><circle cx="64" cy="90" r="34"/><circle cx="156" cy="90" r="34"/></g>
+    <g fill="#0b0b0b"><circle cx="64" cy="90" r="16" style="animation:pulse .25s infinite alternate;transform-origin:64px 90px"/><circle cx="156" cy="90" r="16" style="animation:pulse .25s infinite alternate;transform-origin:156px 90px"/></g>
+    <g transform="translate(83,58)"><rect width="54" height="26" rx="3" fill="#f3eee8"/><line x1="27" y1="24" x2="27" y2="6" stroke="#e10600" stroke-width="2" style="animation:needle .6s infinite alternate ease-in-out;transform-origin:27px 24px"/></g>
+    <g class="loopstrum" transform="translate(70,60) scale(.95)"><g class="rocker"></g></g>
+    <rect x="0" y="160" width="220" height="18" fill="#fff"/>
+    <g fill="#000" id="checker"></g>
+   </svg>
+  </div>
+  <div class="rw-card" style="background:#1c1718;border-left:4px solid #e10600;border-radius:0 12px 12px 0">Weiter lernen<b>Lektion 4: Power-Chord E5</b><div class="rw-bar" style="color:#e10600"><i></i></div></div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px;margin:6px 10px 0">
+   <div class="rw-tile" style="margin:0;background:#e10600">Stimmen</div><div class="rw-tile" style="margin:0;background:#fff;color:#000">Kurs</div>
+   <div class="rw-tile" style="margin:0;background:#fff;color:#000">Lieder</div><div class="rw-tile" style="margin:0;background:#1c1718">Import</div>
+  </div>
+ </div>
+ <div class="rw-splash shake" style="background:#111">
+  <svg viewBox="0 0 220 440" width="220" height="440" style="position:absolute;inset:0">
+   <rect x="20" y="210" width="180" height="150" rx="10" fill="#1d1a1b" stroke="#fff" stroke-width="2"/>
+   <g fill="#2a2526"><circle cx="70" cy="295" r="38"/><circle cx="150" cy="295" r="38"/></g>
+   <circle class="wave" cx="110" cy="295" r="50" fill="none" stroke="#e10600" stroke-width="8" style="transform-origin:110px 295px"/>
+   <rect x="28" y="218" width="164" height="18" rx="3" fill="#e10600"/>
+   <g transform="translate(150,227)"><circle r="9" fill="#fff"/><line x1="0" y1="0" x2="0" y2="-8" stroke="#000" stroke-width="2" transform="rotate(150)"/></g>
+   <text x="34" y="231" font-size="10" font-weight="800" fill="#fff">VOLUME → 11</text>
+   <g transform="translate(40,70) scale(1.15)"><g class="rocker"></g></g>
+  </svg>
+  <div class="boom" style="position:absolute;top:30px;font-weight:900;font-style:italic;font-size:30px;color:#e10600;-webkit-text-stroke:1px #fff">KRAWUMM!</div>
+  <div class="flash" style="position:absolute;inset:0;background:#e10600;opacity:0"></div>
+ </div>
+</div>
+<div class="name">C · Verstärker</div>
+<div class="desc">Lautstärke auf 11, ein Schlag und der Verstärker bläst das Intro weg. Oben pulsieren Boxen und Zeiger.</div>
+</div>
+
+</div>
+<p style="text-align:center;margin-top:24px"><button id="rw-replay">Alle Intros nochmal abspielen</button></p>
+<script>
+const ROCKER = `
+<g class="head"><path d="M47 34 L44 22 L52 28 L55 16 L60 27 L66 15 L68 28 L76 21 L73 34Z" fill="#111" stroke="#fff" stroke-width="1.5"/><circle cx="60" cy="40" r="12" fill="#f3eee8" stroke="#111" stroke-width="2"/><rect x="51" y="36" width="18" height="5" rx="2" fill="#111"/></g>
+<rect x="48" y="53" width="24" height="44" rx="8" fill="#111" stroke="#fff" stroke-width="1.5"/>
+<path d="M54 96 L42 134 M66 96 L82 134" stroke="#111" stroke-width="9" stroke-linecap="round"/>
+<path d="M54 96 L42 134 M66 96 L82 134" stroke="#fff" stroke-width="1.2" stroke-linecap="round" opacity=".5"/>
+<path d="M52 62 L88 70" stroke="#111" stroke-width="7" stroke-linecap="round"/>
+<g transform="rotate(-24 66 88)"><path d="M48 80 C48 70 62 70 64 78 C66 70 82 70 82 82 C82 96 66 100 64 92 C60 100 48 96 48 80Z" fill="#e10600" stroke="#fff" stroke-width="2"/><rect x="80" y="83" width="44" height="5" fill="#111" stroke="#fff" stroke-width="1"/><rect x="122" y="80" width="10" height="11" rx="2" fill="#fff"/><circle cx="62" cy="85" r="3" fill="#111"/></g>
+<g class="arm"><path d="M68 62 L74 90" stroke="#111" stroke-width="7" stroke-linecap="round"/><circle cx="74" cy="91" r="5" fill="#f3eee8" stroke="#111" stroke-width="2"/></g>`;
+document.querySelectorAll('.rocker').forEach(g => g.innerHTML = ROCKER);
+const ch = document.getElementById('checker');
+for (let i = 0; i < 25; i++) ch.innerHTML += `<rect x="${i*9}" y="${i%2?169:160}" width="9" height="9"/>`;
+const phones = ['p1','p2','p3'].map(id => document.getElementById(id));
+const play = p => { p.classList.remove('play'); void p.offsetWidth; p.classList.add('play'); };
+phones.forEach(p => p.addEventListener('click', () => play(p)));
+document.getElementById('rw-replay').addEventListener('click', () => phones.forEach(play));
+phones.forEach(play);
+</script>
+</body>
+</html>

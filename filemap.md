@@ -44,3 +44,4 @@
 - `tests/gp-import.test.js` — prüft die GP-Umwandlung
 - `tests/play.test.js` — prüft die Spiellogik
 - `images/` — eigene SVG-Bilder zur Hand- und Spielhaltung, in data/course.json als `images` je Lektion
+- `entwuerfe.html` — Design-Entwürfe für die Startseite (nicht Teil der App)

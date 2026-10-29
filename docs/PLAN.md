@@ -26,7 +26,7 @@ gp-import.js + views/import.js: Datei wählen, alphaTab 1.3.1 dynamisch laden, S
 ## 8. Gesamttest — Orchestrator im Browser-Bereich — nach 4–7  [x]
 Alle Routen bei 375×812 und 812×375, Konsolenfehler, waagerechtes Scrollen, Stimmgerät + Highway mit `?testton=`. Screenshots.
 
-## 9. Veröffentlichen — Light — nach 8 und Abnahme  [ ]
+## 9. Veröffentlichen — Light — nach 8 und Abnahme  [x]
 Repo Sertscho/riffwerk (öffentlich) anlegen, pushen, GitHub Pages (main, /) aktivieren, Beschreibung „🎸 https://sertscho.github.io/riffwerk/ – Gitarre lernen im Guitar-Hero-Stil“ und Homepage-Feld setzen, Live-URL prüfen.
 
 Parallel möglich: 2 ∥ 3 · danach 4 ∥ 5 ∥ 6 ∥ 7.

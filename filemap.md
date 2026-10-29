@@ -27,3 +27,15 @@
 - `tests/` — node:test-Tests
 - `tests/smoke.test.js` — prüft das Manifest
 - `.claude/launch.json` — Startkonfiguration für den lokalen Server (Port 8000)
+- `data/` — Inhalte
+- `data/songs/erster-riff.json` — eigenes Einsteiger-Riff (Saite 6, 90 BPM, 16 Takte)
+- `data/songs/garagen-rock.json` — eigene Power-Chord-Komposition (100 BPM, 24 Takte)
+- `data/songs/house-of-the-rising-sun.json` — Volkslied-Arpeggio (6/8, 150 BPM, 16 Takte)
+- `data/course.json` — 8 Lektionen mit Griffbildern und Übungen
+- `tests/content.test.js` — prüft Lieder, Übungen und Kurs
+- `js/music/notes.js` — Stimmung (TUNING), MIDI/Frequenz/Notenname, Cent, nearestString
+- `js/music/song.js` — validateSong, beatToSec, eventMidis, eventPitchClasses, songDurationBeats
+- `js/audio/pitch.js` — YIN detectPitch, matchSingle
+- `js/audio/chroma.js` — chromaFromSpectrum, matchChord
+- `js/audio/mic.js` — startInput (Mikrofon oder ?testton=, Browser)
+- `tests/notes.test.js`, `tests/song.test.js`, `tests/pitch.test.js`, `tests/chroma.test.js` — Tests dazu

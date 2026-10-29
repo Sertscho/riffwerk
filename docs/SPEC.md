@@ -70,7 +70,7 @@ tests/*.test.js
   ]
 }
 ```
-`string`: 1 = hohe e-Saite … 6 = tiefe E-Saite. `beat`: Startzeit in Vierteln ab 0. `chord` optional. Ein Ereignis mit mehreren Noten wird per Chroma geprüft, sonst per YIN.
+`string`: 1 = hohe e-Saite … 6 = tiefe E-Saite. `beat`: Startzeit in Schlägen ab 0, `dur` Länge in Schlägen; ein Schlag ist die Einheit von `bpm` (bei 6/8 also Achtel, z. B. bpm 150, beatsPerBar 6). `chord` optional. Ein Ereignis mit mehreren Noten wird per Chroma geprüft, sonst per YIN.
 
 ## Design
 Dunkel, Rock/Verstärker-Gefühl, eigenständig (nicht Simply kopieren).

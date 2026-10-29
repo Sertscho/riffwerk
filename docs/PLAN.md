@@ -8,7 +8,7 @@ Ordner und Dateien laut SPEC „Architektur“ anlegen: index.html (Viewport mit
 ## 2. Musik- und Audio-Kern — Medium — nach 1  [ ]
 notes.js, song.js, pitch.js (YIN, Schwelle 0.15, Bereich 70–1200 Hz), chroma.js, mic.js. Tests in tests/ mit erzeugten Signalen (Sinus + Sägezahn mit Obertönen, 44.1 kHz) für alle 6 Leersaiten (±3 Cent), Stille → null, Akkord-Match für E5, Em, Am, C positiv und gegenseitig negativ. Prüfen: `node --test`. mic.js unterstützt `?testton=` (siehe SPEC).
 
-## 3. Inhalte: Lieder + Kurs — Medium — nach 1  [ ]
+## 3. Inhalte: Lieder + Kurs — Medium — nach 1  [x]
 data/songs/erster-riff.json, garagen-rock.json, house-of-the-rising-sun.json und data/course.json (8 Lektionen laut SPEC, je Text, Griffbild-Daten {string,fret,finger}, Übung = Liste von Ereignissen oder Lied-ID). Musikalisch sinnvoll, für Anfänger spielbar, ca. 16–32 Takte pro Lied. Test: alle Dateien erfüllen das Liedformat (Validator aus song.js oder eigener Test).
 
 ## 4. Stimmgerät-Ansicht — Medium — nach 2  [ ]

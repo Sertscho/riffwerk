@@ -56,6 +56,27 @@ async function route() {
   }
 }
 
+import { ROCKER } from './rocker.js';
+
+// Intro beim Öffnen: Rocker schlägt einmal an, dann Startseite. Tippen überspringt.
+function intro() {
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  const d = document.createElement('div');
+  d.className = 'splash';
+  d.setAttribute('aria-hidden', 'true');
+  // feste Konstanten, keine Fremddaten
+  d.innerHTML = `<svg viewBox="0 0 220 440" preserveAspectRatio="xMidYMid slice">
+    <polygon points="80,0 140,0 210,440 10,440" fill="#e10600" opacity=".3"/>
+    <circle class="splash-wave" cx="125" cy="250" r="40" fill="none" stroke="#fff" stroke-width="4"/>
+    <g transform="translate(30 140) scale(1.3)">${ROCKER}</g>
+  </svg><div class="splash-boom">BRAAANG!</div><div class="splash-flash"></div>`;
+  const end = () => d.remove();
+  d.addEventListener('click', end);
+  d.addEventListener('animationend', (e) => { if (e.target === d) end(); });
+  document.body.append(d);
+}
+intro();
+
 window.addEventListener('hashchange', route);
 route();
 

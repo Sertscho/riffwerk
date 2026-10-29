@@ -1,4 +1,5 @@
 import * as store from '../store.js';
+import { ROCKER, BOLTS } from '../rocker.js';
 
 const el_ = (tag, cls, text) => {
   const e = document.createElement(tag);
@@ -34,8 +35,18 @@ export async function render(el) {
   const next = course.find((l) => !done(l.n));
 
   const page = el_('div', 'page');
-  const top = el_('header', 'topbar');
-  top.append(el_('h1', null, 'Riffwerk'));
+  const top = el_('header', 'stage');
+  // feste Konstanten, keine Fremddaten
+  top.innerHTML = `<svg viewBox="0 0 360 190" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+    <polygon points="150,0 210,0 290,190 70,190" fill="#e10600" opacity=".35"/>
+    <rect x="0" y="168" width="360" height="22" fill="#1a1415"/>
+    <g fill="#222" stroke="#444"><rect x="14" y="104" width="52" height="66" rx="4"/><rect x="294" y="104" width="52" height="66" rx="4"/></g>
+    <g fill="#111"><circle cx="40" cy="122" r="11"/><circle cx="40" cy="150" r="11"/><circle cx="320" cy="122" r="11"/><circle cx="320" cy="150" r="11"/></g>
+    <g transform="translate(112 32)">${BOLTS}<g class="rk-loop">${ROCKER}</g></g>
+  </svg>`;
+  const h1 = el_('h1', 'stage-title', 'RIFF');
+  h1.append(el_('span', null, 'WERK'));
+  top.append(h1);
 
   const hero = el_('a', 'card hero');
   if (next) {

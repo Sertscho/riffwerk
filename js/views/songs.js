@@ -1,6 +1,6 @@
 import * as store from '../store.js';
+import { loadCourse, STUFEN_TITEL } from '../music/course.js';
 
-const BUILTIN = ['erster-riff', 'garagen-rock', 'house-of-the-rising-sun'];
 const h = (tag, cls, text) => {
   const e = document.createElement(tag);
   if (cls) e.className = cls;
@@ -32,10 +32,10 @@ function entry(song, best, onDelete) {
 
 export async function render(el) {
   const progress = store.get('progress', {}).songs || {};
-  const built = [];
-  for (const id of BUILTIN) {
-    try { built.push(await (await fetch(`data/songs/${id}.json`)).json()); } catch (e) { console.error(e); }
-  }
+  let built = [];
+  try { built = await (await fetch('data/songs/index.json')).json(); } catch (e) { console.error(e); }
+  const { stufen } = await loadCourse();
+  const stufeTitle = (k) => stufen.find((x) => x.stufe === k)?.title || STUFEN_TITEL[k - 1];
   const page = h('div', 'page');
   const top = h('header', 'topbar');
   const back = h('a', 'btn', '‹ Zurück');
@@ -43,10 +43,14 @@ export async function render(el) {
   top.append(back, h('h1', null, 'Lieder'));
   page.append(top);
 
-  page.append(h('h2', 'section', 'Übungslieder'));
-  const l1 = h('div', 'tile-list');
-  for (const s of built) l1.append(entry(s, progress[s.id]?.best));
-  page.append(l1);
+  // Einträge aus index.json zeigen, auch wenn die Liedatei noch fehlt (Spielansicht meldet das dann)
+  for (const k of [...new Set(built.map((s) => s.stufe))].sort((x, y) => x - y)) {
+    const name = stufeTitle(k);
+    page.append(h('h2', 'section', name ? `Stufe ${k} · ${name}` : `Stufe ${k}`));
+    const list = h('div', 'tile-list');
+    for (const s of built.filter((x) => x.stufe === k)) list.append(entry(s, progress[s.id]?.best));
+    page.append(list);
+  }
 
   page.append(h('h2', 'section', 'Deine Lieder'));
   const l2 = h('div', 'tile-list');

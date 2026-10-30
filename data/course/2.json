@@ -1,0 +1,6325 @@
+{
+  "stufe": 2,
+  "title": "Akkorde und Rhythmus",
+  "intro": "Du lernst die wichtigsten Grundakkorde, wechselst sauber zwischen ihnen und spielst deinen ersten Rhythmus.",
+  "lessons": [
+    {
+      "n": 9,
+      "title": "Der G-Akkord",
+      "intro": [
+        "Ein Akkord ist ein Zusammenklang: Du schlägst mehrere Saiten gleichzeitig an. Der G-Akkord klingt offen und kräftig und steckt in unzähligen Rocksongs.",
+        "Du brauchst drei Finger: Mittelfinger (2) auf Saite 6, Bund 3, Zeigefinger (1) auf Saite 5, Bund 2 und kleiner Finger (4) auf Saite 1, Bund 3. Die Saiten 4, 3 und 2 bleiben leer. Es klingen alle sechs Saiten.",
+        "Setz die Finger steil auf, wie ein kleines Dach, damit sie die Nachbarsaiten nicht berühren. Zupf danach jede Saite einzeln an und prüfe, ob sie sauber klingt. Ein dumpfer Ton heißt: Ein Finger liegt irgendwo im Weg."
+      ],
+      "tips": [
+        "Finger steil aufsetzen, nah hinter dem Bund.",
+        "Jede Saite einzeln prüfen, dann erst im Ganzen anschlagen.",
+        "Der Daumen liegt locker hinter dem Hals."
+      ],
+      "diagrams": [
+        {
+          "name": "G",
+          "frets": "320003",
+          "fingers": "320004"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/greifhand-seite.svg",
+          "caption": "Steil aufgesetzte Finger berühren die Nachbarsaiten nicht.",
+          "alt": "Querschnitt durch den Hals mit gewölbtem Finger"
+        }
+      ],
+      "exercise": {
+        "type": "events",
+        "bpm": 60,
+        "beatsPerBar": 4,
+        "events": [
+          {
+            "beat": 0,
+            "dur": 4,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 4,
+            "dur": 4,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 8,
+            "dur": 4,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 12,
+            "dur": 4,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 16,
+            "dur": 4,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 20,
+            "dur": 4,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 24,
+            "dur": 4,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 28,
+            "dur": 4,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          }
+        ]
+      }
+    },
+    {
+      "n": 10,
+      "title": "D und A",
+      "intro": [
+        "Jetzt kommen zwei weitere Grundakkorde dazu: D und A. Beide spielst du nur auf den hohen Saiten. Die tiefen Saiten bleiben stumm, im Diagramm steht dafür ein x.",
+        "Beim D greifst du Saite 3, Bund 2 (Zeigefinger), Saite 1, Bund 2 (Mittelfinger) und Saite 2, Bund 3 (Ringfinger). Du schlägst nur die vier dünnen Saiten an, Saite 4 ist leer.",
+        "Beim A sitzen die Finger nebeneinander auf Bund 2 der Saiten 4, 3 und 2. Du schlägst ab der A-Saite (Saite 5) an, die tiefe E-Saite lässt du aus. Bei beiden Griffen gilt: lieber vorsichtig und sauber als schnell."
+      ],
+      "tips": [
+        "Beim Anschlag ziel mit dem Plektrum auf die richtige Startsaite.",
+        "Bei A dürfen die drei Finger eng nebeneinander sitzen, nutz dafür die Fingerspitzen.",
+        "Alternativ geht A mit Zeige-, Mittel- und Ringfinger (1-2-3)."
+      ],
+      "diagrams": [
+        {
+          "name": "D",
+          "frets": "xx0232",
+          "fingers": "xx0132"
+        },
+        {
+          "name": "A",
+          "frets": "x02220",
+          "fingers": "x01230"
+        }
+      ],
+      "images": [],
+      "exercise": {
+        "type": "events",
+        "bpm": 60,
+        "beatsPerBar": 4,
+        "events": [
+          {
+            "beat": 0,
+            "dur": 4,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 4,
+            "dur": 4,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 2
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "A"
+          },
+          {
+            "beat": 8,
+            "dur": 4,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 12,
+            "dur": 4,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 2
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "A"
+          },
+          {
+            "beat": 16,
+            "dur": 4,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 20,
+            "dur": 4,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 2
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "A"
+          },
+          {
+            "beat": 24,
+            "dur": 4,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 28,
+            "dur": 4,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 2
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "A"
+          }
+        ]
+      }
+    },
+    {
+      "n": 11,
+      "title": "E-Dur und der Wechsel E–A",
+      "intro": [
+        "E-Dur ist ein Akkord, der laut und breit klingt, alle sechs Saiten klingen mit. Greif Saite 5 und 4 im Bund 2 (Mittel- und Ringfinger) und Saite 3 im Bund 1 (Zeigefinger). Die übrigen Saiten bleiben leer.",
+        "Jetzt übst du den Wechsel von E nach A. Ein Akkordwechsel heißt: Du hebst alle Finger gemeinsam ab und setzt sie gemeinsam wieder auf. Die Finger bewegen sich nur kurz, ihre Form bleibt ähnlich.",
+        "Dank halber Noten hast du zwei Schläge Zeit für den Wechsel. Lass dir Zeit und achte auf sauberen Klang statt Tempo."
+      ],
+      "tips": [
+        "Beim Wechsel die Finger nur knapp über die Saiten heben.",
+        "Schau zuerst auf den nächsten Griff, dann wechsle.",
+        "Langsam und sauber ist besser als schnell und schief."
+      ],
+      "diagrams": [
+        {
+          "name": "E",
+          "frets": "022100",
+          "fingers": "023100"
+        },
+        {
+          "name": "A",
+          "frets": "x02220",
+          "fingers": "x01230"
+        }
+      ],
+      "images": [],
+      "exercise": {
+        "type": "events",
+        "bpm": 65,
+        "beatsPerBar": 4,
+        "events": [
+          {
+            "beat": 0,
+            "dur": 2,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 0
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 1
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "E"
+          },
+          {
+            "beat": 2,
+            "dur": 2,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 0
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 1
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "E"
+          },
+          {
+            "beat": 4,
+            "dur": 2,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 2
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "A"
+          },
+          {
+            "beat": 6,
+            "dur": 2,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 2
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "A"
+          },
+          {
+            "beat": 8,
+            "dur": 2,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 0
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 1
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "E"
+          },
+          {
+            "beat": 10,
+            "dur": 2,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 0
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 1
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "E"
+          },
+          {
+            "beat": 12,
+            "dur": 2,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 2
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "A"
+          },
+          {
+            "beat": 14,
+            "dur": 2,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 2
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "A"
+          },
+          {
+            "beat": 16,
+            "dur": 2,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 0
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 1
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "E"
+          },
+          {
+            "beat": 18,
+            "dur": 2,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 0
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 1
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "E"
+          },
+          {
+            "beat": 20,
+            "dur": 2,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 2
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "A"
+          },
+          {
+            "beat": 22,
+            "dur": 2,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 2
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "A"
+          },
+          {
+            "beat": 24,
+            "dur": 2,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 0
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 1
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "E"
+          },
+          {
+            "beat": 26,
+            "dur": 2,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 0
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 1
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "E"
+          },
+          {
+            "beat": 28,
+            "dur": 2,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 2
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "A"
+          },
+          {
+            "beat": 30,
+            "dur": 2,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 2
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "A"
+          }
+        ]
+      }
+    },
+    {
+      "n": 12,
+      "title": "Die Ein-Minuten-Methode",
+      "intro": [
+        "So wechselst du Akkorde schneller: Stell dir einen Timer auf eine Minute. Wechsle in dieser Minute so oft wie möglich sauber zwischen zwei Akkorden und zähl die Wechsel. Am nächsten Tag versuchst du, diese Zahl zu schlagen.",
+        "Das Wichtigste: Bewege alle Finger gemeinsam, nicht einzeln nacheinander. Deine Hand lernt so das Griffbild als ein Ganzes.",
+        "Diesmal übst du G und C. Beim C greifst du Saite 5 im Bund 3 (Ringfinger), Saite 4 im Bund 2 (Mittelfinger) und Saite 2 im Bund 1 (Zeigefinger). Saite 6 bleibt stumm."
+      ],
+      "tips": [
+        "Eine Minute üben, Wechsel zählen, am nächsten Tag steigern.",
+        "Alle Finger gemeinsam bewegen.",
+        "Pausen sind okay: Schüttel die Hand zwischendurch aus."
+      ],
+      "diagrams": [
+        {
+          "name": "G",
+          "frets": "320003",
+          "fingers": "320004"
+        },
+        {
+          "name": "C",
+          "frets": "x32010",
+          "fingers": "x32010"
+        }
+      ],
+      "images": [],
+      "exercise": {
+        "type": "events",
+        "bpm": 60,
+        "beatsPerBar": 4,
+        "events": [
+          {
+            "beat": 0,
+            "dur": 2,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 2,
+            "dur": 2,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 4,
+            "dur": 2,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 3
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 1
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "C"
+          },
+          {
+            "beat": 6,
+            "dur": 2,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 3
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 1
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "C"
+          },
+          {
+            "beat": 8,
+            "dur": 2,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 10,
+            "dur": 2,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 12,
+            "dur": 2,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 3
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 1
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "C"
+          },
+          {
+            "beat": 14,
+            "dur": 2,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 3
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 1
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "C"
+          },
+          {
+            "beat": 16,
+            "dur": 2,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 18,
+            "dur": 2,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 20,
+            "dur": 2,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 3
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 1
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "C"
+          },
+          {
+            "beat": 22,
+            "dur": 2,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 3
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 1
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "C"
+          },
+          {
+            "beat": 24,
+            "dur": 2,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 26,
+            "dur": 2,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 28,
+            "dur": 2,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 3
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 1
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "C"
+          },
+          {
+            "beat": 30,
+            "dur": 2,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 3
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 1
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "C"
+          }
+        ]
+      }
+    },
+    {
+      "n": 13,
+      "title": "Viertel-Anschlag und Metronom",
+      "intro": [
+        "Ein Metronom klickt in gleichmäßigem Tempo und hilft dir, den Takt zu halten. Du findest es in den Einstellungen der App. Ein Takt besteht hier aus vier Schlägen: 1, 2, 3, 4.",
+        "Beim Viertel-Anschlag schlägst du auf jeden Schlag einmal nach unten an. Das ist die Grundlage jedes Rockrhythmus. Zähle laut mit: eins, zwei, drei, vier.",
+        "Der Em-Akkord hat die gleichen Finger wie E-Dur, nur ohne den Zeigefinger. Mit Em, G, D und C kannst du schon viele Songs spielen."
+      ],
+      "tips": [
+        "Zähl immer laut mit, das hilft dem Gefühl.",
+        "Die Schlaghand bleibt locker, das Handgelenk schwingt mit.",
+        "Wenn ein Wechsel nicht klappt, spiel den Schlag trotzdem weiter."
+      ],
+      "diagrams": [
+        {
+          "name": "Em",
+          "frets": "022000",
+          "fingers": "023000"
+        },
+        {
+          "name": "G",
+          "frets": "320003",
+          "fingers": "320004"
+        },
+        {
+          "name": "D",
+          "frets": "xx0232",
+          "fingers": "xx0132"
+        },
+        {
+          "name": "C",
+          "frets": "x32010",
+          "fingers": "x32010"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/anschlag.svg",
+          "caption": "Der Anschlag kommt locker aus dem Handgelenk.",
+          "alt": "Plektrum, das über die Saiten nach unten schlägt"
+        }
+      ],
+      "exercise": {
+        "type": "events",
+        "bpm": 70,
+        "beatsPerBar": 4,
+        "events": [
+          {
+            "beat": 0,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 0
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "Em"
+          },
+          {
+            "beat": 1,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 0
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "Em"
+          },
+          {
+            "beat": 2,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 0
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "Em"
+          },
+          {
+            "beat": 3,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 0
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "Em"
+          },
+          {
+            "beat": 4,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 5,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 6,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 7,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 8,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 9,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 10,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 11,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 12,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 3
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 1
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "C"
+          },
+          {
+            "beat": 13,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 3
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 1
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "C"
+          },
+          {
+            "beat": 14,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 3
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 1
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "C"
+          },
+          {
+            "beat": 15,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 3
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 1
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "C"
+          },
+          {
+            "beat": 16,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 0
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "Em"
+          },
+          {
+            "beat": 17,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 0
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "Em"
+          },
+          {
+            "beat": 18,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 0
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "Em"
+          },
+          {
+            "beat": 19,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 0
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "Em"
+          },
+          {
+            "beat": 20,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 21,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 22,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 23,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 24,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 25,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 26,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 27,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 28,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 3
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 1
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "C"
+          },
+          {
+            "beat": 29,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 3
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 1
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "C"
+          },
+          {
+            "beat": 30,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 3
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 1
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "C"
+          },
+          {
+            "beat": 31,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 3
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 1
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "C"
+          }
+        ]
+      }
+    },
+    {
+      "n": 14,
+      "title": "Achtel: Ab und Auf",
+      "intro": [
+        "Achtel sind halb so lang wie Viertel: Pro Schlag spielst du zwei Anschläge. Einen nach unten (Ab) und einen nach oben (Auf). Beim Zählen sagst du: eins-und, zwei-und, drei-und, vier-und. Das „und“ ist der Auf-Schlag.",
+        "Deine Hand pendelt gleichmäßig wie ein Uhrpendel: runter auf die Zahl, hoch auf das „und“. Sie hört nie auf zu schwingen, auch wenn du einmal nicht triffst.",
+        "Spiel zuerst langsam nur auf einem Akkord, bevor du wechselst. Hier wechselst du zwischen G und D."
+      ],
+      "tips": [
+        "Das Pendel nie stoppen, auch beim Wechsel nicht.",
+        "Beim Auf-Schlag leichter anschlagen, nur die hohen Saiten treffen.",
+        "Laut zählen: eins-und, zwei-und …"
+      ],
+      "diagrams": [
+        {
+          "name": "G",
+          "frets": "320003",
+          "fingers": "320004"
+        },
+        {
+          "name": "D",
+          "frets": "xx0232",
+          "fingers": "xx0132"
+        }
+      ],
+      "images": [],
+      "exercise": {
+        "type": "events",
+        "bpm": 70,
+        "beatsPerBar": 4,
+        "events": [
+          {
+            "beat": 0.0,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 0.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 1.0,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 1.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 2.0,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 2.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 3.0,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 3.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 4.0,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 4.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 5.0,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 5.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 6.0,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 6.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 7.0,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 7.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 8.0,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 8.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 9.0,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 9.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 10.0,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 10.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 11.0,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 11.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 12.0,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 12.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 13.0,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 13.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 14.0,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 14.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 15.0,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 15.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 16.0,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 16.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 17.0,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 17.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 18.0,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 18.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 19.0,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 19.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 20.0,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 20.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 21.0,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 21.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 22.0,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 22.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 23.0,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 23.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 24.0,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 24.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 25.0,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 25.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 26.0,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 26.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 27.0,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 27.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 28.0,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 28.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 29.0,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 29.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 30.0,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 30.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 31.0,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 31.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          }
+        ]
+      }
+    },
+    {
+      "n": 15,
+      "title": "Pausen und Stopps",
+      "intro": [
+        "Musik besteht nicht nur aus Tönen, sondern auch aus Pausen. Eine Pause ist ein Moment Stille, und genau sie macht einen Rhythmus spannend.",
+        "So machst du einen Stopp: Lass die Greifhand kurz locker, sodass die Finger die Saiten nicht mehr drücken, oder leg die Handkante der Schlaghand auf die Saiten. Der Klang bricht sofort ab.",
+        "Die Hand schwingt in den Pausen weiter, du triffst die Saiten nur nicht. In der Übung wechseln sich A und D mit Lücken ab. Wo nichts steht, ist Stille."
+      ],
+      "tips": [
+        "In der Pause bewegt sich die Schlaghand weiter.",
+        "Stopp = Finger lockern, nicht die Hand wegziehen.",
+        "Zähle auch die Pausen laut mit."
+      ],
+      "diagrams": [
+        {
+          "name": "A",
+          "frets": "x02220",
+          "fingers": "x01230"
+        },
+        {
+          "name": "D",
+          "frets": "xx0232",
+          "fingers": "xx0132"
+        }
+      ],
+      "images": [],
+      "exercise": {
+        "type": "events",
+        "bpm": 75,
+        "beatsPerBar": 4,
+        "events": [
+          {
+            "beat": 0,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 2
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "A"
+          },
+          {
+            "beat": 1,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 2
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "A"
+          },
+          {
+            "beat": 3,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 2
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "A"
+          },
+          {
+            "beat": 4,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 6,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 7,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 8,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 2
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "A"
+          },
+          {
+            "beat": 9,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 2
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "A"
+          },
+          {
+            "beat": 11,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 2
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "A"
+          },
+          {
+            "beat": 12,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 14,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 15,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 16,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 2
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "A"
+          },
+          {
+            "beat": 17,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 2
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "A"
+          },
+          {
+            "beat": 19,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 2
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "A"
+          },
+          {
+            "beat": 20,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 22,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 23,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 24,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 2
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "A"
+          },
+          {
+            "beat": 25,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 2
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "A"
+          },
+          {
+            "beat": 27,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 2
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "A"
+          },
+          {
+            "beat": 28,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 30,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 31,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          }
+        ]
+      }
+    },
+    {
+      "n": 16,
+      "title": "Das Lagerfeuer-Muster",
+      "intro": [
+        "Jetzt kombinierst du alles zu deinem ersten richtigen Strumming-Muster. Es heißt Ab, Ab-Auf, Auf-Ab-Auf. Gezählt: 1, 2, 2-und, 3-und, 4, 4-und.",
+        "Die Hand pendelt weiter wie bei den Achteln. Dabei triffst du nur die Schläge, die zum Muster gehören, die anderen sind Luftschläge. Das klingt nach Lagerfeuer und Sommerabend.",
+        "Spiel das Muster mit den Akkorden G, D, Em und C. Pro Takt ein Akkord."
+      ],
+      "tips": [
+        "Das Muster erst auf einem Akkord üben, dann wechseln.",
+        "Die Hand pendelt immer, auch bei den Luftschlägen.",
+        "Langsam anfangen und das Tempo später steigern."
+      ],
+      "diagrams": [
+        {
+          "name": "G",
+          "frets": "320003",
+          "fingers": "320004"
+        },
+        {
+          "name": "D",
+          "frets": "xx0232",
+          "fingers": "xx0132"
+        },
+        {
+          "name": "Em",
+          "frets": "022000",
+          "fingers": "023000"
+        },
+        {
+          "name": "C",
+          "frets": "x32010",
+          "fingers": "x32010"
+        }
+      ],
+      "images": [],
+      "exercise": {
+        "type": "events",
+        "bpm": 75,
+        "beatsPerBar": 4,
+        "events": [
+          {
+            "beat": 0,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 1,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 1.5,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 2.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 3,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 3.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 4,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 5.5,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 6.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 7,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 7.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 8,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 0
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "Em"
+          },
+          {
+            "beat": 9,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 0
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "Em"
+          },
+          {
+            "beat": 9.5,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 0
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "Em"
+          },
+          {
+            "beat": 10.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 0
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "Em"
+          },
+          {
+            "beat": 11,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 0
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "Em"
+          },
+          {
+            "beat": 11.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 0
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "Em"
+          },
+          {
+            "beat": 12,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 3
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 1
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "C"
+          },
+          {
+            "beat": 13,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 3
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 1
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "C"
+          },
+          {
+            "beat": 13.5,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 3
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 1
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "C"
+          },
+          {
+            "beat": 14.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 3
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 1
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "C"
+          },
+          {
+            "beat": 15,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 3
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 1
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "C"
+          },
+          {
+            "beat": 15.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 3
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 1
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "C"
+          },
+          {
+            "beat": 16,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 17,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 17.5,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 18.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 19,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 19.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 20,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 21,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 21.5,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 22.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 23,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 23.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "D"
+          },
+          {
+            "beat": 24,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 0
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "Em"
+          },
+          {
+            "beat": 25,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 0
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "Em"
+          },
+          {
+            "beat": 25.5,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 0
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "Em"
+          },
+          {
+            "beat": 26.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 0
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "Em"
+          },
+          {
+            "beat": 27,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 0
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "Em"
+          },
+          {
+            "beat": 27.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 0
+              },
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 0
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "Em"
+          },
+          {
+            "beat": 28,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 3
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 1
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "C"
+          },
+          {
+            "beat": 29,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 3
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 1
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "C"
+          },
+          {
+            "beat": 29.5,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 3
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 1
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "C"
+          },
+          {
+            "beat": 30.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 3
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 1
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "C"
+          },
+          {
+            "beat": 31,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 3
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 1
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "C"
+          },
+          {
+            "beat": 31.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 3
+              },
+              {
+                "string": 4,
+                "fret": 2
+              },
+              {
+                "string": 3,
+                "fret": 0
+              },
+              {
+                "string": 2,
+                "fret": 1
+              },
+              {
+                "string": 1,
+                "fret": 0
+              }
+            ],
+            "chord": "C"
+          }
+        ]
+      }
+    },
+    {
+      "n": 17,
+      "title": "Lied: Lagerfeuer-Rock",
+      "intro": [
+        "Hier kommt dein erstes ganzes Lied. Es heißt Lagerfeuer-Rock und verwendet alles aus dieser Stufe: G, D, Em und C mit dem Lagerfeuer-Muster.",
+        "Das Lied hat 16 Takte. Am Ende ruht alles auf einem langen G. Spiel zuerst langsam mit, dann nach und nach schneller."
+      ],
+      "tips": [
+        "Bei Hängern nicht anhalten, sondern im nächsten Takt wieder einsteigen.",
+        "Das Tempo in der Songansicht kannst du verlangsamen.",
+        "Freu dich über jeden gespielten Takt."
+      ],
+      "diagrams": [
+        {
+          "name": "G",
+          "frets": "320003",
+          "fingers": "320004"
+        },
+        {
+          "name": "D",
+          "frets": "xx0232",
+          "fingers": "xx0132"
+        },
+        {
+          "name": "Em",
+          "frets": "022000",
+          "fingers": "023000"
+        },
+        {
+          "name": "C",
+          "frets": "x32010",
+          "fingers": "x32010"
+        }
+      ],
+      "images": [],
+      "exercise": {
+        "type": "song",
+        "songId": "lagerfeuer-rock"
+      }
+    },
+    {
+      "n": 18,
+      "title": "Lied: Straßenhymne",
+      "intro": [
+        "Die Straßenhymne ist ein kraftvoller Rocksong mit nur drei Akkorden: A, D und E. Du spielst durchgehend Achtel, also Ab und Auf im Wechsel.",
+        "Das Lied hat zwei Teile mit je acht Takten. Teil A geht A, D, A, E (je zwei Takte). Teil B hat einen anderen Weg: D, A, E, D, und endet auf einem langen A."
+      ],
+      "tips": [
+        "Die Pendelhand läuft durch das ganze Lied.",
+        "Den Wechsel schon im letzten Achtel vorbereiten.",
+        "Gönn dir nach jedem Durchgang eine kurze Pause."
+      ],
+      "diagrams": [
+        {
+          "name": "A",
+          "frets": "x02220",
+          "fingers": "x01230"
+        },
+        {
+          "name": "D",
+          "frets": "xx0232",
+          "fingers": "xx0132"
+        },
+        {
+          "name": "E",
+          "frets": "022100",
+          "fingers": "023100"
+        }
+      ],
+      "images": [],
+      "exercise": {
+        "type": "song",
+        "songId": "strassenhymne"
+      }
+    }
+  ]
+}

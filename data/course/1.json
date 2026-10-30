@@ -1,0 +1,1337 @@
+{
+ "stufe": 1,
+ "title": "Grundlagen",
+ "intro": "Gitarre halten, stimmen und die ersten Töne und Akkorde spielen.",
+ "lessons": [
+  {
+   "n": 1,
+   "title": "Gitarre, Verstärker und Stimmen",
+   "intro": [
+    "Willkommen bei Riffwerk! Du brauchst nur Deine E-Gitarre, den Verstärker und Dein Handy. Alles andere lernst Du hier Schritt für Schritt.",
+    "Deine Gitarre hat sechs Saiten. Von der dicksten (tief) bis zur dünnsten (hoch) heißen sie E, A, D, G, H, e. Merksatz: Eine Alte Dame Geht Heute einkaufen. In den Tabs hier ist Saite 6 die dicke tiefe E-Saite und Saite 1 die dünne hohe e-Saite.",
+    "So hältst du die Gitarre: Setz dich aufrecht hin, der Korpus liegt auf deinem rechten Oberschenkel und der Hals zeigt leicht nach oben. Deine linke Hand greift die Saiten (Greifhand), die rechte schlägt sie an (Anschlaghand). Beide Schultern bleiben locker unten.",
+    "Stell den Verstärker auf einen sauberen Klang mit wenig oder keiner Verzerrung (Gain niedrig). Verzerrung klingt cool, versteckt aber beim Üben Fehler. Die Lautstärke darf so sein, dass Dein Handy-Mikro die Gitarre gut hört, aber nicht übersteuert.",
+    "Jetzt stimmen wir die Gitarre: Eine verstimmte Gitarre klingt auch bei perfektem Spiel falsch. Das Stimmgerät zeigt Dir, ob jede Saite zu tief oder zu hoch ist."
+   ],
+   "tips": [
+    "Immer zuerst stimmen, bevor Du übst.",
+    "Saite einzeln und ruhig anschlagen, dann ausklingen lassen.",
+    "Handy in die Nähe des Verstärkers legen."
+   ],
+   "diagrams": [],
+   "exercise": {
+    "type": "tuner"
+   },
+   "images": [
+    {
+     "src": "images/finger-nummern.svg",
+     "caption": "Die Greifhand: Jeder Finger hat eine Nummer. Die Zahlen in den Griffbildern meinen genau diese Finger.",
+     "alt": "Linke Hand mit den Fingernummern 1 bis 4"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Leere Saiten spielen",
+   "intro": [
+    "Du schlägst jede Saite einzeln an, ohne zu greifen. Das nennt man eine leere Saite, im Tab steht dafür die 0.",
+    "Halte das Plektrum locker zwischen Daumen und Zeigefinger und schlage die Saite nach unten an. Spiel ruhig und lass jeden Ton ausklingen.",
+    "Hier gehst Du von der dicken tiefen E-Saite bis zur dünnen hohen e-Saite. Lass Dir Zeit, es geht nicht um Tempo."
+   ],
+   "tips": [
+    "Locker bleiben, kein Krampf in der Hand.",
+    "Nur die gewünschte Saite treffen."
+   ],
+   "diagrams": [],
+   "exercise": {
+    "type": "events",
+    "bpm": 60,
+    "beatsPerBar": 4,
+    "events": [
+     {
+      "beat": 0,
+      "dur": 4,
+      "notes": [
+       {
+        "string": 6,
+        "fret": 0
+       }
+      ]
+     },
+     {
+      "beat": 4,
+      "dur": 4,
+      "notes": [
+       {
+        "string": 5,
+        "fret": 0
+       }
+      ]
+     },
+     {
+      "beat": 8,
+      "dur": 4,
+      "notes": [
+       {
+        "string": 4,
+        "fret": 0
+       }
+      ]
+     },
+     {
+      "beat": 12,
+      "dur": 4,
+      "notes": [
+       {
+        "string": 3,
+        "fret": 0
+       }
+      ]
+     },
+     {
+      "beat": 16,
+      "dur": 4,
+      "notes": [
+       {
+        "string": 2,
+        "fret": 0
+       }
+      ]
+     },
+     {
+      "beat": 20,
+      "dur": 4,
+      "notes": [
+       {
+        "string": 1,
+        "fret": 0
+       }
+      ]
+     }
+    ]
+   },
+   "images": [
+    {
+     "src": "images/plektrum.svg",
+     "caption": "So hältst du das Plektrum: locker zwischen Daumen und der Seite des gekrümmten Zeigefingers.",
+     "alt": "Plektrum zwischen Daumen und Zeigefinger"
+    },
+    {
+     "src": "images/anschlag.svg",
+     "caption": "Wo und wie du anschlägst. Die Bewegung kommt aus dem Handgelenk, nicht aus dem ganzen Arm.",
+     "alt": "Anschlagbereich, Richtung Ab und Auf, Handkante zum Dämpfen"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Dein erstes Riff",
+   "intro": [
+    "Ein Riff ist eine kurze Tonfolge, die ein Rocksong immer wiederholt. Dein erstes Riff nutzt nur die tiefe E-Saite.",
+    "Die Zahl im Tab ist der Bund: 0 heißt leer, 3 heißt Finger hinter den dritten Bund, und so weiter. Drück die Saite direkt hinter den Metallstab.",
+    "Die Handhaltung der Greifhand: Der Daumen liegt hinten am Hals, ungefähr in der Mitte. Die Finger sind gekrümmt wie ein Bogen, und nur die Fingerkuppe drückt die Saite, ganz kurz vor dem Bundstab. Die Handfläche berührt den Hals nicht.",
+    "Die Pausen sind Deine Verschnaufzeit. Spiel langsam und genau, das Tempo kommt von allein."
+   ],
+   "tips": [
+    "Finger nah am Bundstäbchen aufsetzen, nicht darauf.",
+    "Zähle im Kopf mit: 1 2 3 4.",
+    "Lieber langsam und sauber als schnell und schief."
+   ],
+   "diagrams": [],
+   "exercise": {
+    "type": "song",
+    "songId": "erster-riff"
+   },
+   "images": [
+    {
+     "src": "images/greifhand-seite.svg",
+     "caption": "Blick entlang des Halses: Daumen hinten, Finger gewölbt, Kuppe drückt steil.",
+     "alt": "Querschnitt durch den Hals mit Daumen hinten und gewölbtem Finger"
+    },
+    {
+     "src": "images/greifhand-bund.svg",
+     "caption": "Blick von oben: Setz den Finger kurz vor den Bundstab, dann reicht wenig Kraft.",
+     "alt": "Drei Fingerpositionen: vor dem Bundstab richtig, in der Mitte geht, auf dem Stab falsch"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "title": "Bünde und Finger",
+   "intro": [
+    "Jetzt übst Du, mit der Greifhand sicher zu werden. Die Finger heißen 1 (Zeigefinger) bis 4 (kleiner Finger).",
+    "Du spielst auf der Saite 5 (A-Saite) die Bünde 0, 2, 3 und 5 hin und zurück. Jeder Finger bekommt seinen Bund: Bund 2 mit Finger 1, Bund 3 mit Finger 2 und Bund 5 mit Finger 4.",
+    "Wenn es am Anfang wehtut, ist das normal. Mach kurze Pausen, die Fingerkuppen werden bald hart."
+   ],
+   "tips": [
+    "Daumen hinten am Hals, Handgelenk locker.",
+    "Kurze Übungen, dafür täglich."
+   ],
+   "diagrams": [],
+   "exercise": {
+    "type": "events",
+    "bpm": 70,
+    "beatsPerBar": 4,
+    "events": [
+     {
+      "beat": 0,
+      "dur": 1,
+      "notes": [
+       {
+        "string": 5,
+        "fret": 0
+       }
+      ]
+     },
+     {
+      "beat": 1,
+      "dur": 1,
+      "notes": [
+       {
+        "string": 5,
+        "fret": 2
+       }
+      ]
+     },
+     {
+      "beat": 2,
+      "dur": 1,
+      "notes": [
+       {
+        "string": 5,
+        "fret": 3
+       }
+      ]
+     },
+     {
+      "beat": 3,
+      "dur": 1,
+      "notes": [
+       {
+        "string": 5,
+        "fret": 5
+       }
+      ]
+     },
+     {
+      "beat": 4,
+      "dur": 1,
+      "notes": [
+       {
+        "string": 5,
+        "fret": 3
+       }
+      ]
+     },
+     {
+      "beat": 5,
+      "dur": 1,
+      "notes": [
+       {
+        "string": 5,
+        "fret": 2
+       }
+      ]
+     },
+     {
+      "beat": 6,
+      "dur": 1,
+      "notes": [
+       {
+        "string": 5,
+        "fret": 0
+       }
+      ]
+     },
+     {
+      "beat": 7,
+      "dur": 1,
+      "notes": [
+       {
+        "string": 5,
+        "fret": 0
+       }
+      ]
+     },
+     {
+      "beat": 8,
+      "dur": 1,
+      "notes": [
+       {
+        "string": 5,
+        "fret": 0
+       }
+      ]
+     },
+     {
+      "beat": 9,
+      "dur": 1,
+      "notes": [
+       {
+        "string": 5,
+        "fret": 2
+       }
+      ]
+     },
+     {
+      "beat": 10,
+      "dur": 1,
+      "notes": [
+       {
+        "string": 5,
+        "fret": 3
+       }
+      ]
+     },
+     {
+      "beat": 11,
+      "dur": 1,
+      "notes": [
+       {
+        "string": 5,
+        "fret": 5
+       }
+      ]
+     },
+     {
+      "beat": 12,
+      "dur": 1,
+      "notes": [
+       {
+        "string": 5,
+        "fret": 3
+       }
+      ]
+     },
+     {
+      "beat": 13,
+      "dur": 1,
+      "notes": [
+       {
+        "string": 5,
+        "fret": 2
+       }
+      ]
+     },
+     {
+      "beat": 14,
+      "dur": 1,
+      "notes": [
+       {
+        "string": 5,
+        "fret": 0
+       }
+      ]
+     },
+     {
+      "beat": 15,
+      "dur": 1,
+      "notes": [
+       {
+        "string": 5,
+        "fret": 0
+       }
+      ]
+     }
+    ]
+   },
+   "images": [
+    {
+     "src": "images/finger-nummern.svg",
+     "caption": "Ein Finger pro Bund: Finger 1 für den ersten gegriffenen Bund, die anderen daneben.",
+     "alt": "Linke Hand mit den Fingernummern 1 bis 4"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "title": "Power-Chords",
+   "intro": [
+    "Power-Chords sind der Klang des Rock: zwei Töne gleichzeitig, der Grundton und eine Quinte darüber. Du brauchst nur zwei Saiten.",
+    "E5 spielst Du mit Bund 0 auf Saite 6 und Bund 2 auf Saite 5. G5 und A5 sind die gleiche Form, nur weiter oben am Hals verschoben.",
+    "Die Hand beim Power-Chord: Zeigefinger auf die tiefe Saite, Ringfinger zwei Bünde weiter auf die Saite darunter. Die Finger liegen dabei leicht flach auf den dünnen Saiten und dämpfen sie, so klingen nur die zwei gegriffenen Töne.",
+    "Schlage nur die zwei Saiten an und dämpfe die anderen leicht. Dann spielst Du Garagen-Rock."
+   ],
+   "tips": [
+    "Nur zwei Saiten anschlagen.",
+    "Form behalten und am Hals rutschen.",
+    "Auch hier erst langsam üben."
+   ],
+   "diagrams": [
+    {
+     "name": "E5",
+     "frets": "02xxxx",
+     "fingers": "01xxxx"
+    },
+    {
+     "name": "G5",
+     "frets": "35xxxx",
+     "fingers": "13xxxx"
+    },
+    {
+     "name": "A5",
+     "frets": "57xxxx",
+     "fingers": "13xxxx"
+    }
+   ],
+   "exercise": {
+    "type": "song",
+    "songId": "garagen-rock"
+   },
+   "images": [
+    {
+     "src": "images/powerchord-hand.svg",
+     "caption": "G5 mit Zeigefinger (1) und Ringfinger (3).",
+     "alt": "Griffbrett mit Zeigefinger im 3. und Ringfinger im 5. Bund"
+    },
+    {
+     "src": "images/anschlag.svg",
+     "caption": "Rock-Trick: Leg die Handkante der Anschlaghand leicht auf die Saiten am Steg. Das gibt den gedämpften Rock-Sound.",
+     "alt": "Handkante am Steg zum Dämpfen"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "title": "Erste Akkorde: Em und Am",
+   "intro": [
+    "Ein Akkord ist ein Klang aus mehreren Saiten. Em und Am sind die beiden einfachsten.",
+    "Beim Em greifst Du mit zwei Fingern Saite 5 und 4 im zweiten Bund und schlägst alle sechs Saiten an. Beim Am nimmst Du dieselbe Form eine Saite tiefer und einen dritten Finger auf Saite 2 im ersten Bund. Dort schlägst Du die Saite 6 nicht an (x im Bild).",
+    "Wechsle langsam zwischen beiden. Der Wechsel ist die eigentliche Übung."
+   ],
+   "tips": [
+    "Alle Finger gleichzeitig aufsetzen.",
+    "Ein x im Bild heißt: Saite nicht anschlagen.",
+    "Nach jedem Akkord kurz alle Saiten einzeln prüfen: klingt jede?"
+   ],
+   "diagrams": [
+    {
+     "name": "Em",
+     "frets": "022000",
+     "fingers": "023000"
+    },
+    {
+     "name": "Am",
+     "frets": "x02210",
+     "fingers": "x02310"
+    }
+   ],
+   "exercise": {
+    "type": "events",
+    "bpm": 60,
+    "beatsPerBar": 4,
+    "events": [
+     {
+      "beat": 0,
+      "dur": 4,
+      "notes": [
+       {
+        "string": 6,
+        "fret": 0
+       },
+       {
+        "string": 5,
+        "fret": 2
+       },
+       {
+        "string": 4,
+        "fret": 2
+       },
+       {
+        "string": 3,
+        "fret": 0
+       },
+       {
+        "string": 2,
+        "fret": 0
+       },
+       {
+        "string": 1,
+        "fret": 0
+       }
+      ],
+      "chord": "Em"
+     },
+     {
+      "beat": 4,
+      "dur": 4,
+      "notes": [
+       {
+        "string": 5,
+        "fret": 0
+       },
+       {
+        "string": 4,
+        "fret": 2
+       },
+       {
+        "string": 3,
+        "fret": 2
+       },
+       {
+        "string": 2,
+        "fret": 1
+       },
+       {
+        "string": 1,
+        "fret": 0
+       }
+      ],
+      "chord": "Am"
+     },
+     {
+      "beat": 8,
+      "dur": 4,
+      "notes": [
+       {
+        "string": 6,
+        "fret": 0
+       },
+       {
+        "string": 5,
+        "fret": 2
+       },
+       {
+        "string": 4,
+        "fret": 2
+       },
+       {
+        "string": 3,
+        "fret": 0
+       },
+       {
+        "string": 2,
+        "fret": 0
+       },
+       {
+        "string": 1,
+        "fret": 0
+       }
+      ],
+      "chord": "Em"
+     },
+     {
+      "beat": 12,
+      "dur": 4,
+      "notes": [
+       {
+        "string": 5,
+        "fret": 0
+       },
+       {
+        "string": 4,
+        "fret": 2
+       },
+       {
+        "string": 3,
+        "fret": 2
+       },
+       {
+        "string": 2,
+        "fret": 1
+       },
+       {
+        "string": 1,
+        "fret": 0
+       }
+      ],
+      "chord": "Am"
+     },
+     {
+      "beat": 16,
+      "dur": 4,
+      "notes": [
+       {
+        "string": 6,
+        "fret": 0
+       },
+       {
+        "string": 5,
+        "fret": 2
+       },
+       {
+        "string": 4,
+        "fret": 2
+       },
+       {
+        "string": 3,
+        "fret": 0
+       },
+       {
+        "string": 2,
+        "fret": 0
+       },
+       {
+        "string": 1,
+        "fret": 0
+       }
+      ],
+      "chord": "Em"
+     },
+     {
+      "beat": 20,
+      "dur": 4,
+      "notes": [
+       {
+        "string": 5,
+        "fret": 0
+       },
+       {
+        "string": 4,
+        "fret": 2
+       },
+       {
+        "string": 3,
+        "fret": 2
+       },
+       {
+        "string": 2,
+        "fret": 1
+       },
+       {
+        "string": 1,
+        "fret": 0
+       }
+      ],
+      "chord": "Am"
+     },
+     {
+      "beat": 24,
+      "dur": 4,
+      "notes": [
+       {
+        "string": 6,
+        "fret": 0
+       },
+       {
+        "string": 5,
+        "fret": 2
+       },
+       {
+        "string": 4,
+        "fret": 2
+       },
+       {
+        "string": 3,
+        "fret": 0
+       },
+       {
+        "string": 2,
+        "fret": 0
+       },
+       {
+        "string": 1,
+        "fret": 0
+       }
+      ],
+      "chord": "Em"
+     },
+     {
+      "beat": 28,
+      "dur": 4,
+      "notes": [
+       {
+        "string": 5,
+        "fret": 0
+       },
+       {
+        "string": 4,
+        "fret": 2
+       },
+       {
+        "string": 3,
+        "fret": 2
+       },
+       {
+        "string": 2,
+        "fret": 1
+       },
+       {
+        "string": 1,
+        "fret": 0
+       }
+      ],
+      "chord": "Am"
+     }
+    ]
+   },
+   "images": [
+    {
+     "src": "images/greifhand-seite.svg",
+     "caption": "Bei Akkorden besonders wichtig: Finger steil aufsetzen, damit sie die Nachbarsaiten nicht berühren.",
+     "alt": "Querschnitt durch den Hals mit gewölbtem Finger"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "title": "Mehr Akkorde und ein Volkslied",
+   "intro": [
+    "Mit C, D, E und dem kleinen F spielst Du schon ein altes Volkslied. Neu hier: C, D, F und E.",
+    "Das kleine F greifst Du nur auf den drei höchsten Saiten, ohne den schwierigen Barré-Griff. Das reicht für das Lied.",
+    "Das Lied wird Saite für Saite gespielt (Arpeggio): erst der tiefste Ton des Akkords, dann die höheren nacheinander. Es geht im Sechs-Achtel-Takt, das schaukelt schön."
+   ],
+   "tips": [
+    "Ein Akkord pro Takt, Wechsel rechtzeitig vorbereiten.",
+    "Sehr langsam anfangen, das Tempo ist bei Dir regelbar.",
+    "Jeden Akkord einzeln üben, bevor Du das Lied spielst."
+   ],
+   "diagrams": [
+    {
+     "name": "C",
+     "frets": "x32010",
+     "fingers": "x32040"
+    },
+    {
+     "name": "D",
+     "frets": "xx0232",
+     "fingers": "xx0132"
+    },
+    {
+     "name": "E",
+     "frets": "022100",
+     "fingers": "023100"
+    },
+    {
+     "name": "F (klein)",
+     "frets": "xx3211",
+     "fingers": "xx3211"
+    }
+   ],
+   "exercise": {
+    "type": "song",
+    "songId": "house-of-the-rising-sun"
+   }
+  },
+  {
+   "n": 8,
+   "title": "Anschlagmuster",
+   "intro": [
+    "Jetzt gibt es Rhythmus! Du schlägst alle Saiten an und wechselst dabei die Richtung: Ab, Ab, Auf, Auf, Ab.",
+    "Ab heißt die Hand geht nach unten, Auf nach oben. Die Hand schwingt immer weiter wie ein Pendel, auch wenn Du bei einem Schlag nichts triffst.",
+    "Die vier Akkorde Em, Am, C und G zusammen geben Dir schon viele Songs. G greifst Du mit drei Fingern, die anderen kennst Du schon."
+   ],
+   "tips": [
+    "Handgelenk locker, Arm schwingt mit.",
+    "Takt im Kopf mitzählen.",
+    "Wenn ein Wechsel hängt, lieber den Rhythmus halten als stoppen."
+   ],
+   "diagrams": [
+    {
+     "name": "Em",
+     "frets": "022000",
+     "fingers": "023000"
+    },
+    {
+     "name": "Am",
+     "frets": "x02210",
+     "fingers": "x02310"
+    },
+    {
+     "name": "C",
+     "frets": "x32010",
+     "fingers": "x32040"
+    },
+    {
+     "name": "G",
+     "frets": "320003",
+     "fingers": "320004"
+    }
+   ],
+   "exercise": {
+    "type": "events",
+    "bpm": 70,
+    "beatsPerBar": 4,
+    "events": [
+     {
+      "beat": 0,
+      "dur": 1,
+      "notes": [
+       {
+        "string": 6,
+        "fret": 0
+       },
+       {
+        "string": 5,
+        "fret": 2
+       },
+       {
+        "string": 4,
+        "fret": 2
+       },
+       {
+        "string": 3,
+        "fret": 0
+       },
+       {
+        "string": 2,
+        "fret": 0
+       },
+       {
+        "string": 1,
+        "fret": 0
+       }
+      ],
+      "chord": "Em"
+     },
+     {
+      "beat": 1,
+      "dur": 1,
+      "notes": [
+       {
+        "string": 6,
+        "fret": 0
+       },
+       {
+        "string": 5,
+        "fret": 2
+       },
+       {
+        "string": 4,
+        "fret": 2
+       },
+       {
+        "string": 3,
+        "fret": 0
+       },
+       {
+        "string": 2,
+        "fret": 0
+       },
+       {
+        "string": 1,
+        "fret": 0
+       }
+      ],
+      "chord": "Em"
+     },
+     {
+      "beat": 2,
+      "dur": 0.5,
+      "notes": [
+       {
+        "string": 6,
+        "fret": 0
+       },
+       {
+        "string": 5,
+        "fret": 2
+       },
+       {
+        "string": 4,
+        "fret": 2
+       },
+       {
+        "string": 3,
+        "fret": 0
+       },
+       {
+        "string": 2,
+        "fret": 0
+       },
+       {
+        "string": 1,
+        "fret": 0
+       }
+      ],
+      "chord": "Em"
+     },
+     {
+      "beat": 2.5,
+      "dur": 0.5,
+      "notes": [
+       {
+        "string": 6,
+        "fret": 0
+       },
+       {
+        "string": 5,
+        "fret": 2
+       },
+       {
+        "string": 4,
+        "fret": 2
+       },
+       {
+        "string": 3,
+        "fret": 0
+       },
+       {
+        "string": 2,
+        "fret": 0
+       },
+       {
+        "string": 1,
+        "fret": 0
+       }
+      ],
+      "chord": "Em"
+     },
+     {
+      "beat": 3,
+      "dur": 1,
+      "notes": [
+       {
+        "string": 6,
+        "fret": 0
+       },
+       {
+        "string": 5,
+        "fret": 2
+       },
+       {
+        "string": 4,
+        "fret": 2
+       },
+       {
+        "string": 3,
+        "fret": 0
+       },
+       {
+        "string": 2,
+        "fret": 0
+       },
+       {
+        "string": 1,
+        "fret": 0
+       }
+      ],
+      "chord": "Em"
+     },
+     {
+      "beat": 4,
+      "dur": 1,
+      "notes": [
+       {
+        "string": 5,
+        "fret": 0
+       },
+       {
+        "string": 4,
+        "fret": 2
+       },
+       {
+        "string": 3,
+        "fret": 2
+       },
+       {
+        "string": 2,
+        "fret": 1
+       },
+       {
+        "string": 1,
+        "fret": 0
+       }
+      ],
+      "chord": "Am"
+     },
+     {
+      "beat": 5,
+      "dur": 1,
+      "notes": [
+       {
+        "string": 5,
+        "fret": 0
+       },
+       {
+        "string": 4,
+        "fret": 2
+       },
+       {
+        "string": 3,
+        "fret": 2
+       },
+       {
+        "string": 2,
+        "fret": 1
+       },
+       {
+        "string": 1,
+        "fret": 0
+       }
+      ],
+      "chord": "Am"
+     },
+     {
+      "beat": 6,
+      "dur": 0.5,
+      "notes": [
+       {
+        "string": 5,
+        "fret": 0
+       },
+       {
+        "string": 4,
+        "fret": 2
+       },
+       {
+        "string": 3,
+        "fret": 2
+       },
+       {
+        "string": 2,
+        "fret": 1
+       },
+       {
+        "string": 1,
+        "fret": 0
+       }
+      ],
+      "chord": "Am"
+     },
+     {
+      "beat": 6.5,
+      "dur": 0.5,
+      "notes": [
+       {
+        "string": 5,
+        "fret": 0
+       },
+       {
+        "string": 4,
+        "fret": 2
+       },
+       {
+        "string": 3,
+        "fret": 2
+       },
+       {
+        "string": 2,
+        "fret": 1
+       },
+       {
+        "string": 1,
+        "fret": 0
+       }
+      ],
+      "chord": "Am"
+     },
+     {
+      "beat": 7,
+      "dur": 1,
+      "notes": [
+       {
+        "string": 5,
+        "fret": 0
+       },
+       {
+        "string": 4,
+        "fret": 2
+       },
+       {
+        "string": 3,
+        "fret": 2
+       },
+       {
+        "string": 2,
+        "fret": 1
+       },
+       {
+        "string": 1,
+        "fret": 0
+       }
+      ],
+      "chord": "Am"
+     },
+     {
+      "beat": 8,
+      "dur": 1,
+      "notes": [
+       {
+        "string": 5,
+        "fret": 3
+       },
+       {
+        "string": 4,
+        "fret": 2
+       },
+       {
+        "string": 3,
+        "fret": 0
+       },
+       {
+        "string": 2,
+        "fret": 1
+       },
+       {
+        "string": 1,
+        "fret": 0
+       }
+      ],
+      "chord": "C"
+     },
+     {
+      "beat": 9,
+      "dur": 1,
+      "notes": [
+       {
+        "string": 5,
+        "fret": 3
+       },
+       {
+        "string": 4,
+        "fret": 2
+       },
+       {
+        "string": 3,
+        "fret": 0
+       },
+       {
+        "string": 2,
+        "fret": 1
+       },
+       {
+        "string": 1,
+        "fret": 0
+       }
+      ],
+      "chord": "C"
+     },
+     {
+      "beat": 10,
+      "dur": 0.5,
+      "notes": [
+       {
+        "string": 5,
+        "fret": 3
+       },
+       {
+        "string": 4,
+        "fret": 2
+       },
+       {
+        "string": 3,
+        "fret": 0
+       },
+       {
+        "string": 2,
+        "fret": 1
+       },
+       {
+        "string": 1,
+        "fret": 0
+       }
+      ],
+      "chord": "C"
+     },
+     {
+      "beat": 10.5,
+      "dur": 0.5,
+      "notes": [
+       {
+        "string": 5,
+        "fret": 3
+       },
+       {
+        "string": 4,
+        "fret": 2
+       },
+       {
+        "string": 3,
+        "fret": 0
+       },
+       {
+        "string": 2,
+        "fret": 1
+       },
+       {
+        "string": 1,
+        "fret": 0
+       }
+      ],
+      "chord": "C"
+     },
+     {
+      "beat": 11,
+      "dur": 1,
+      "notes": [
+       {
+        "string": 5,
+        "fret": 3
+       },
+       {
+        "string": 4,
+        "fret": 2
+       },
+       {
+        "string": 3,
+        "fret": 0
+       },
+       {
+        "string": 2,
+        "fret": 1
+       },
+       {
+        "string": 1,
+        "fret": 0
+       }
+      ],
+      "chord": "C"
+     },
+     {
+      "beat": 12,
+      "dur": 1,
+      "notes": [
+       {
+        "string": 6,
+        "fret": 3
+       },
+       {
+        "string": 5,
+        "fret": 2
+       },
+       {
+        "string": 4,
+        "fret": 0
+       },
+       {
+        "string": 3,
+        "fret": 0
+       },
+       {
+        "string": 2,
+        "fret": 0
+       },
+       {
+        "string": 1,
+        "fret": 3
+       }
+      ],
+      "chord": "G"
+     },
+     {
+      "beat": 13,
+      "dur": 1,
+      "notes": [
+       {
+        "string": 6,
+        "fret": 3
+       },
+       {
+        "string": 5,
+        "fret": 2
+       },
+       {
+        "string": 4,
+        "fret": 0
+       },
+       {
+        "string": 3,
+        "fret": 0
+       },
+       {
+        "string": 2,
+        "fret": 0
+       },
+       {
+        "string": 1,
+        "fret": 3
+       }
+      ],
+      "chord": "G"
+     },
+     {
+      "beat": 14,
+      "dur": 0.5,
+      "notes": [
+       {
+        "string": 6,
+        "fret": 3
+       },
+       {
+        "string": 5,
+        "fret": 2
+       },
+       {
+        "string": 4,
+        "fret": 0
+       },
+       {
+        "string": 3,
+        "fret": 0
+       },
+       {
+        "string": 2,
+        "fret": 0
+       },
+       {
+        "string": 1,
+        "fret": 3
+       }
+      ],
+      "chord": "G"
+     },
+     {
+      "beat": 14.5,
+      "dur": 0.5,
+      "notes": [
+       {
+        "string": 6,
+        "fret": 3
+       },
+       {
+        "string": 5,
+        "fret": 2
+       },
+       {
+        "string": 4,
+        "fret": 0
+       },
+       {
+        "string": 3,
+        "fret": 0
+       },
+       {
+        "string": 2,
+        "fret": 0
+       },
+       {
+        "string": 1,
+        "fret": 3
+       }
+      ],
+      "chord": "G"
+     },
+     {
+      "beat": 15,
+      "dur": 1,
+      "notes": [
+       {
+        "string": 6,
+        "fret": 3
+       },
+       {
+        "string": 5,
+        "fret": 2
+       },
+       {
+        "string": 4,
+        "fret": 0
+       },
+       {
+        "string": 3,
+        "fret": 0
+       },
+       {
+        "string": 2,
+        "fret": 0
+       },
+       {
+        "string": 1,
+        "fret": 3
+       }
+      ],
+      "chord": "G"
+     }
+    ]
+   },
+   "images": [
+    {
+     "src": "images/anschlag.svg",
+     "caption": "Ab geht von der dicken zur dünnen Saite, Auf zurück. Die Hand schwingt wie ein Pendel.",
+     "alt": "Anschlagrichtung Ab und Auf"
+    }
+   ]
+  }
+ ]
+}

@@ -1,6 +1,8 @@
 // Liedformat prüfen und Zeiten rechnen (ohne DOM)
 import { fretToMidi } from './notes.js';
 
+export const TECHS = ['h', 'p', 's', 'b', 'pm'];
+
 export function validateSong(obj) {
   const err = [];
   if (!obj || typeof obj !== 'object') return ['Lied ist kein Objekt.'];
@@ -25,13 +27,15 @@ export function validateSong(obj) {
     else e.notes.forEach((x, j) => {
       if (!Number.isInteger(x?.string) || x.string < 1 || x.string > 6) err.push(`${n}, Note ${j + 1}: string muss 1 bis 6 sein.`);
       if (!Number.isInteger(x?.fret) || x.fret < 0 || x.fret > 24) err.push(`${n}, Note ${j + 1}: fret muss 0 bis 24 sein.`);
+      if (x?.tech !== undefined && !TECHS.includes(x.tech)) err.push(`${n}, Note ${j + 1}: tech muss h, p, s, b oder pm sein.`);
+      if (x?.bend !== undefined && (x.tech !== 'b' || ![1, 2].includes(x.bend))) err.push(`${n}, Note ${j + 1}: bend (1 oder 2) nur bei tech "b".`);
     });
   });
   return err;
 }
 
 export const beatToSec = (beat, bpm, tempo = 1) => (beat * 60) / (bpm * tempo);
-export const eventMidis = (event) => event.notes.map((n) => fretToMidi(n.string, n.fret));
+export const eventMidis = (event) => event.notes.map((n) => fretToMidi(n.string, n.fret) + (n.bend || 0));
 export const eventPitchClasses = (event) =>
   [...new Set(eventMidis(event).map((m) => m % 12))].sort((a, b) => a - b);
 export const songDurationBeats = (song) => Math.max(0, ...song.events.map((e) => e.beat + e.dur));

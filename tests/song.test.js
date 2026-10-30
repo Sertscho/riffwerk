@@ -26,3 +26,20 @@ test('Zeiten und Töne', () => {
   assert.deepEqual(eventPitchClasses({ notes: [{ string: 6, fret: 0 }, { string: 4, fret: 2 }, { string: 6, fret: 12 }] }), [4]);
   assert.equal(songDurationBeats(ok()), 3);
 });
+
+test('Techniken tech und bend', () => {
+  const withNote = (note) => { const s = ok(); s.events[0].notes[0] = { string: 3, fret: 7, ...note }; return s; };
+  for (const tech of ['h', 'p', 's', 'pm']) assert.deepEqual(validateSong(withNote({ tech })), [], tech);
+  assert.deepEqual(validateSong(withNote({ tech: 'b', bend: 1 })), []);
+  assert.deepEqual(validateSong(withNote({ tech: 'b', bend: 2 })), []);
+  assert.deepEqual(validateSong(withNote({ tech: 'b' })), []);
+  for (const bad of [{ tech: 'x' }, { tech: 'b', bend: 3 }, { tech: 'h', bend: 1 }, { bend: 1 }]) {
+    assert.ok(validateSong(withNote(bad)).length > 0, JSON.stringify(bad));
+  }
+});
+test('eventMidis zählt bend dazu', () => {
+  // G-Saite Bund 7 = D4 (62); Bend 2 -> E4 (64), Bend 1 -> D#4 (63)
+  assert.deepEqual(eventMidis({ notes: [{ string: 3, fret: 7 }] }), [62]);
+  assert.deepEqual(eventMidis({ notes: [{ string: 3, fret: 7, tech: 'b', bend: 2 }] }), [64]);
+  assert.deepEqual(eventMidis({ notes: [{ string: 3, fret: 7, tech: 'b', bend: 1 }] }), [63]);
+});

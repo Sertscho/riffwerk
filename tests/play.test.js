@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {
-  pxPerBeat, beatAt, eventTimes, isOnset, inWindow, isMissed, barStart, barEnd,
+  pxPerBeat, beatAt, eventTimes, isOnset, needsOnset, inWindow, isMissed, barStart, barEnd,
   loopTap, loopAdvance, percent, stars, improve,
 } from '../js/play/logic.js';
 
@@ -68,4 +68,11 @@ test('Bestwert nur verbessern', () => {
   assert.deepEqual(improve(80, 70), { best: 80, isNew: false });
   assert.deepEqual(improve(80, 90), { best: 90, isNew: true });
   assert.deepEqual(improve(undefined, 0), { best: 0, isNew: false });
+});
+
+test('Legato (h/p/s) braucht keinen neuen Anschlag', () => {
+  const ev = (...techs) => ({ notes: techs.map((tech) => ({ string: 3, fret: 2, tech })) });
+  for (const t of ['h', 'p', 's']) assert.equal(needsOnset(ev(t)), false, t);
+  for (const t of [undefined, 'b', 'pm']) assert.equal(needsOnset(ev(t)), true, String(t));
+  assert.equal(needsOnset(ev('h', undefined)), true);
 });

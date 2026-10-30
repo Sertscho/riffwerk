@@ -11,6 +11,10 @@ export const eventTimes = (song, tempo = 1) => song.events.map((e) => beatToSec(
 // Anschlag: laut genug und deutlich lauter als vor 3 Frames
 export const isOnset = (rms, prevRms, factor = 1.4) => rms > MIN_RMS && rms > factor * prevRms;
 
+// Hammer-on, Pull-off und Slide klingen ohne neuen Anschlag: nur solche Ereignisse brauchen keinen Onset,
+// sonst bliebe Legato im Warte-Modus unerkannt (die Hand schlägt die Saite nicht an).
+export const needsOnset = (event) => !event.notes.every((n) => n.tech === 'h' || n.tech === 'p' || n.tech === 's');
+
 // Takt-Modus: liegt die (um die Latenz verschobene) Erkennungszeit im Trefferfenster?
 export const inWindow = (detectSec, evSec, win = WINDOW_SEC) => Math.abs(detectSec - evSec) <= win;
 export const isMissed = (detectSec, evSec, win = WINDOW_SEC) => detectSec - evSec > win;

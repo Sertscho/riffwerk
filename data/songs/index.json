@@ -1,0 +1,79 @@
+[
+ {
+  "id": "erster-riff",
+  "title": "Dein erstes Riff",
+  "artist": "Riffwerk",
+  "level": 1,
+  "stufe": 1
+ },
+ {
+  "id": "garagen-rock",
+  "title": "Garagen-Rock",
+  "artist": "Riffwerk",
+  "level": 2,
+  "stufe": 1
+ },
+ {
+  "id": "house-of-the-rising-sun",
+  "title": "House of the Rising Sun",
+  "artist": "Traditionell",
+  "level": 3,
+  "stufe": 1
+ },
+ {
+  "id": "lagerfeuer-rock",
+  "title": "Lagerfeuer-Rock",
+  "artist": "Riffwerk",
+  "level": 2,
+  "stufe": 2
+ },
+ {
+  "id": "strassenhymne",
+  "title": "Straßenhymne",
+  "artist": "Riffwerk",
+  "level": 2,
+  "stufe": 2
+ },
+ {
+  "id": "garagen-chug",
+  "title": "Garagen-Chug",
+  "artist": "Riffwerk",
+  "level": 3,
+  "stufe": 3
+ },
+ {
+  "id": "legato-riff",
+  "title": "Legato-Riff",
+  "artist": "Riffwerk",
+  "level": 3,
+  "stufe": 3
+ },
+ {
+  "id": "vollgas",
+  "title": "Vollgas",
+  "artist": "Riffwerk",
+  "level": 3,
+  "stufe": 3
+ },
+ {
+  "id": "erstes-solo",
+  "title": "Erstes Solo",
+  "artist": "Riffwerk",
+  "level": 3,
+  "stufe": 4
+ },
+ {
+  "id": "blues-shuffle",
+  "title": "Blues-Shuffle in A",
+  "artist": "Riffwerk",
+  "level": 3,
+  "stufe": 4
+ },
+ {
+  "id": "riffwerk-hymne",
+  "title": "Riffwerk-Hymne",
+  "artist": "Riffwerk",
+  "level": 3,
+  "stufe": 4
+ }
+]

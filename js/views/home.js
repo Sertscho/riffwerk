@@ -1,4 +1,5 @@
 import * as store from '../store.js';
+import { loadCourse } from '../music/course.js';
 import { ROCKER, BOLTS } from '../rocker.js';
 
 const el_ = (tag, cls, text) => {
@@ -26,11 +27,10 @@ function icon(name) {
 }
 
 export async function render(el) {
-  let course = [];
-  try { course = await (await fetch('data/course.json')).json(); } catch (e) { console.error(e); }
+  const { lessons: course } = await loadCourse();
   const lessons = store.get('progress', {}).lessons || {};
   const done = (n) => !!lessons[n]?.done || (lessons[n]?.best ?? 0) >= 80;
-  const total = course.length || 8;
+  const total = course.length || 40;
   const count = course.filter((l) => done(l.n)).length;
   const next = course.find((l) => !done(l.n));
 

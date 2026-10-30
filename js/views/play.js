@@ -3,13 +3,15 @@ import * as store from '../store.js';
 import { startInput } from '../audio/mic.js';
 import { detectPitch, matchSingle } from '../audio/pitch.js';
 import { chromaFromSpectrum, matchChord } from '../audio/chroma.js';
+import { loadCourse } from '../music/course.js';
 import { validateSong, beatToSec, eventMidis, eventPitchClasses } from '../music/song.js';
 import {
-  MIN_RMS, pxPerBeat, beatAt, eventTimes, isOnset, inWindow, isMissed,
+  MIN_RMS, pxPerBeat, beatAt, eventTimes, isOnset, needsOnset, inWindow, isMissed,
   loopTap, loopAdvance, percent, stars, improve,
 } from '../play/logic.js';
 
-const BUILTIN = ['erster-riff', 'garagen-rock', 'house-of-the-rising-sun'];
+const TECH_LABEL = { h: 'H', p: 'P', s: '/', pm: 'PM' };
+const techLabel = (n) => (n.tech === 'b' ? `B${n.bend === 1 ? '½' : '1'}` : TECH_LABEL[n.tech]);
 const FADE_MS = 450;
 const ARMED_MS = 500; // so lange nach einem Anschlag darf ein Treffer zählen
 const HEADER = 56;
@@ -29,20 +31,20 @@ const btn = (cls, text, label) => {
 
 async function loadSong(id) {
   try {
-    if (BUILTIN.includes(id)) {
-      const r = await fetch(`data/songs/${id}.json`);
-      return r.ok ? await r.json() : null;
-    }
     const m = /^lektion-(\d+)$/.exec(id);
     if (m) {
-      const r = await fetch('data/course.json');
-      if (!r.ok) return null;
-      const lesson = (await r.json()).find((l) => l.n === Number(m[1]));
+      const lesson = (await loadCourse()).lessons.find((l) => l.n === Number(m[1]));
       const ex = lesson?.exercise;
       if (ex?.type !== 'events') return null;
       return { id, title: `Lektion ${lesson.n}`, bpm: ex.bpm, beatsPerBar: ex.beatsPerBar, events: ex.events };
     }
-    return store.get('importedSongs', []).find((s) => s?.id === id) || null;
+    const mine = store.get('importedSongs', []).find((s) => s?.id === id);
+    if (mine) return mine;
+    if (/^[a-z0-9-]+$/.test(id)) {
+      const r = await fetch(`data/songs/${id}.json`);
+      return r.ok ? await r.json() : null;
+    }
+    return null;
   } catch (e) {
     console.error(e);
     return null;
@@ -315,7 +317,7 @@ export async function render(el, params) {
     hist.push(rms);
     if (isOnset(rms, prev)) { onsetOpen = true; onsetAt = now; wrongCounted = false; }
     // shortcut: Testton ohne Anschläge
-    const armed = free || (onsetOpen && now - onsetAt < ARMED_MS);
+    const armedByOnset = free || (onsetOpen && now - onsetAt < ARMED_MS);
 
     // erwartetes Ereignis
     let idx = -1;
@@ -330,7 +332,9 @@ export async function render(el, params) {
         }
       }
     }
-    if (idx < 0 || rms < MIN_RMS || !armed) { streak = wrongStreak = 0; return; }
+    // Legato (h/p/s): kein neuer Anschlag nötig, sonst wäre der Ton im Warte-Modus nie "scharf"
+    const legato = idx >= 0 && !needsOnset(evs[idx].e);
+    if (idx < 0 || rms < MIN_RMS || !(armedByOnset || legato)) { streak = wrongStreak = 0; return; }
 
     const ev = evs[idx];
     let ok = false, wrong = false;
@@ -351,7 +355,8 @@ export async function render(el, params) {
       return;
     }
     streak = 0;
-    if (mode !== 'wait' || free || wrongCounted) return;
+    // Legato: der vorige Ton klingt noch, das ist kein Fehlversuch
+    if (mode !== 'wait' || free || wrongCounted || legato) return;
     // Fehlversuch: pro Anschlag höchstens einer
     if (ev.single) wrongStreak = wrong ? wrongStreak + 1 : 0;
     else wrongStreak = now - onsetAt >= 350 ? 2 : 0;
@@ -489,6 +494,15 @@ export async function render(el, params) {
         c2.beginPath(); c2.arc(ex, y, rad, 0, Math.PI * 2); c2.fill();
         c2.fillStyle = col.bg;
         c2.fillText(String(n.fret), ex, y + 1);
+        const tl = techLabel(n);
+        if (tl) {
+          c2.fillStyle = col.text;
+          c2.font = `bold ${Math.round(rad * 0.7)}px -apple-system, system-ui, sans-serif`;
+          // pm über der Note, die anderen Kürzel rechts daneben
+          if (n.tech === 'pm') c2.fillText(tl, ex, y - rad - 7);
+          else c2.fillText(tl, ex + rad + 10, y + 1);
+          c2.font = `bold ${Math.round(rad * 1.0)}px -apple-system, system-ui, sans-serif`;
+        }
       }
     }
     c2.globalAlpha = 1;

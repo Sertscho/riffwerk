@@ -6,7 +6,7 @@
 - `filemap.md` — diese Übersicht
 - `index.html` — Hülle, lädt js/app.js und css/style.css
 - `manifest.webmanifest` — PWA-Manifest (Name, Farben, Icons 192/512)
-- `sw.js` — Service Worker, Cache-first für App-Dateien (Version riffwerk-v2)
+- `sw.js` — Service Worker, Cache-first für App-Dateien (Version riffwerk-v6)
 - `css/` — Stylesheets
 - `css/style.css` — Design-Tokens (:root) und Basis-Komponenten
 - `js/` — ES-Module
@@ -31,7 +31,10 @@
 - `data/songs/erster-riff.json` — eigenes Einsteiger-Riff (Saite 6, 90 BPM, 16 Takte)
 - `data/songs/garagen-rock.json` — eigene Power-Chord-Komposition (100 BPM, 24 Takte)
 - `data/songs/house-of-the-rising-sun.json` — Volkslied-Arpeggio (6/8, 150 BPM, 16 Takte)
-- `data/course.json` — 8 Lektionen mit Griffbildern und Übungen
+- `data/course/` — Kurs in 4 Stufen: `1.json` … `4.json` (`{stufe, title, intro, lessons}`), Format siehe docs/CURRICULUM.md
+- `data/songs/index.json` — Liste aller Lieder `[{id,title,artist,level,stufe}]` für die Liederseite
+- `docs/CURRICULUM.md` — Lehrplan Stufe 1–4 (40 Lektionen), Dateiformat und Liedformat-Erweiterung (Techniken)
+- `js/music/course.js` — loadCourse(): lädt data/course/1–4.json, gibt `{stufen, lessons}` zurück
 - `tests/content.test.js` — prüft Lieder, Übungen und Kurs
 - `js/music/notes.js` — Stimmung (TUNING), MIDI/Frequenz/Notenname, Cent, nearestString
 - `js/music/song.js` — validateSong, beatToSec, eventMidis, eventPitchClasses, songDurationBeats
@@ -43,6 +46,6 @@
 - `js/play/logic.js` — reine Spiellogik: Trefferfenster, Onset, Loop, Punkte, Sterne
 - `tests/gp-import.test.js` — prüft die GP-Umwandlung
 - `tests/play.test.js` — prüft die Spiellogik
-- `images/` — eigene SVG-Bilder zur Hand- und Spielhaltung, in data/course.json als `images` je Lektion
+- `images/` — eigene SVG-Bilder zur Hand- und Spielhaltung, in data/course/*.json als `images` je Lektion
 - `entwuerfe.html` — Design-Entwürfe für die Startseite (nicht Teil der App)
 - `js/rocker.js` — eigene Rocker-Figur und Blitze (SVG) für Intro und Startseite

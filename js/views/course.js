@@ -1,4 +1,5 @@
 import * as store from '../store.js';
+import { loadCourse } from '../music/course.js';
 
 const NS = 'http://www.w3.org/2000/svg';
 const h = (tag, cls, text) => {
@@ -40,10 +41,34 @@ function diagram(d) {
   return svg;
 }
 
+// Tonleiter: notes [{string, fret, root?}], string 6 = tiefe E links; Grundton rot mit weißem Rand
+function scaleDiagram(d) {
+  const notes = d.notes || [];
+  const start = Math.max(1, d.startFret || 1);
+  const rows = Math.max(5, ...notes.map((n) => n.fret - start + 1));
+  const bottom = 50 + rows * 24;
+  const svg = s('svg', { viewBox: `0 0 200 ${bottom + 20}`, class: 'chord', role: 'img', 'aria-label': `Tonleiter ${d.name}` });
+  const X = (str) => 30 + (6 - str) * 28;
+  svg.append(s('text', { x: 100, y: 16, class: 'chord-name', 'text-anchor': 'middle' }, d.name));
+  for (let r = 0; r <= rows; r++) {
+    svg.append(s('line', { x1: X(6), x2: X(1), y1: 50 + r * 24, y2: 50 + r * 24, class: r === 0 && start === 1 ? 'nut' : 'fret' }));
+  }
+  for (let r = 0; r < rows; r++) {
+    svg.append(s('text', { x: 4, y: 50 + r * 24 + 17, class: 'chord-fret' }, String(start + r)));
+  }
+  for (let str = 1; str <= 6; str++) {
+    svg.append(s('line', { x1: X(str), x2: X(str), y1: 50, y2: bottom, stroke: `var(--s${str})`, class: 'string' }));
+  }
+  for (const n of notes) {
+    const cy = n.fret === 0 ? 38 : 50 + (n.fret - start + 0.5) * 24;
+    svg.append(s('circle', { cx: X(n.string), cy, r: 10, class: n.root ? 'dot-root' : 'dot-note' }));
+  }
+  return svg;
+}
+
 export async function render(el, params) {
-  let course = [];
-  try { course = await (await fetch('data/course.json')).json(); } catch (e) { console.error(e); }
-  const lessons = store.get('progress', {}).lessons || {};
+  const { stufen, lessons: course } = await loadCourse();
+  const prog = store.get('progress', {}).lessons || {};
   const page = h('div', 'page');
   el.append(page);
 
@@ -58,17 +83,29 @@ export async function render(el, params) {
     const back = h('a', 'btn', '‹ Zurück');
     back.href = '#/';
     top.append(back, h('h1', null, 'Kurs'));
-    const list = h('nav', 'tile-list');
-    for (const l of course) {
-      const p = lessons[l.n];
-      const a = h('a', 'tile');
-      a.href = `#/kurs/${l.n}`;
-      const done = p?.done || (p?.best ?? 0) >= 80;
-      const right = h('span', done ? 'badge hit' : 'badge muted', done ? '✓' : p?.best != null ? `${Math.round(p.best)} %` : '');
-      a.append(h('span', 'num', l.n), h('span', 'grow', l.title), right);
-      list.append(a);
-    }
-    page.append(top, list);
+    const isDone = (l) => !!prog[l.n]?.done || (prog[l.n]?.best ?? 0) >= 80;
+    page.append(top);
+    stufen.forEach((st, k) => {
+      const count = st.lessons.filter(isDone).length;
+      const prev = stufen[k - 1];
+      // Empfehlung, keine Sperre: ab 6 geschafften Lektionen der vorigen Stufe "offen"
+      const open = !prev || prev.lessons.filter(isDone).length >= 6;
+      page.append(h('h2', 'section', `Stufe ${st.stufe} · ${st.title}`));
+      if (st.intro) page.append(h('p', 'para', st.intro));
+      page.append(h('p', 'muted small', `${count} von ${st.lessons.length} geschafft`));
+      if (!open) page.append(h('p', 'muted small', `🔒 Empfohlen nach Stufe ${prev.stufe}`));
+      const list = h('nav', 'tile-list');
+      for (const l of st.lessons) {
+        const p = prog[l.n];
+        const a = h('a', 'tile');
+        a.href = `#/kurs/${l.n}`;
+        const done = isDone(l);
+        const right = h('span', done ? 'badge hit' : 'badge muted', done ? '✓' : p?.best != null ? `${Math.round(p.best)} %` : '');
+        a.append(h('span', 'num', l.n), h('span', 'grow', l.title), right);
+        list.append(a);
+      }
+      page.append(list);
+    });
     return;
   }
 
@@ -97,7 +134,7 @@ export async function render(el, params) {
   }
   if (lesson.diagrams?.length) {
     const wrap = h('div', 'chords');
-    for (const d of lesson.diagrams) wrap.append(diagram(d));
+    for (const d of lesson.diagrams) wrap.append(d.type === 'scale' ? scaleDiagram(d) : diagram(d));
     page.append(wrap);
   }
 
@@ -108,7 +145,7 @@ export async function render(el, params) {
   const go = h('a', 'btn btn-primary btn-big', label);
   go.href = href;
   page.append(go);
-  if (lesson.n < course.length) {
+  if (course.some((l) => l.n === lesson.n + 1)) {
     const nx = h('a', 'btn btn-big', 'Nächste Lektion ›');
     nx.href = `#/kurs/${lesson.n + 1}`;
     page.append(nx);

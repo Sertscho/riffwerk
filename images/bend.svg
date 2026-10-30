@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 240" font-family="-apple-system,system-ui,sans-serif" role="img" aria-label="Bend: Ring-, Mittel- und Zeigefinger zusammen auf der G-Saite Bund 7 schieben die Saite nach oben, Richtung tiefe Saiten">
+<rect x="20" y="54" width="316" height="112" fill="#3a281d"/>
+<rect x="16" y="54" width="8" height="112" fill="#efe9dd" opacity="0"/>
+<g fill="#c9c9c9"><rect x="64" y="54" width="4" height="112"/><rect x="110" y="54" width="4" height="112"/><rect x="156" y="54" width="4" height="112"/><rect x="202" y="54" width="4" height="112"/><rect x="248" y="54" width="4" height="112"/><rect x="294" y="54" width="4" height="112"/></g>
+<g stroke="#d9d4cc"><line x1="20" x2="336" y1="64" y2="64" stroke-width="3"/><line x1="20" x2="336" y1="82" y2="82" stroke-width="2.6"/><line x1="20" x2="336" y1="100" y2="100" stroke-width="2.2"/><line x1="20" x2="336" y1="118" y2="118" stroke-width="1.8"/><line x1="20" x2="336" y1="136" y2="136" stroke-width="1.4"/><line x1="20" x2="336" y1="154" y2="154" stroke-width="1.1"/></g>
+<g font-size="11" fill="#9b938c" text-anchor="end"><text x="12" y="68">E</text><text x="12" y="86">A</text><text x="12" y="104">D</text><text x="12" y="122">G</text><text x="12" y="140">H</text><text x="12" y="158">e</text></g>
+<g font-size="11" fill="#9b938c" text-anchor="middle"><text x="43" y="50">4</text><text x="89" y="50">5</text><text x="135" y="50">6</text><text x="181" y="50">7</text><text x="227" y="50">8</text><text x="273" y="50">9</text></g>
+<line x1="20" x2="336" y1="118" y2="118" stroke="#d9d4cc" stroke-width="1" stroke-dasharray="3 3" opacity=".5"/>
+<path d="M20 118 L98 118 L190 100 L250 118 L336 118" fill="none" stroke="#d9d4cc" stroke-width="2" stroke-linejoin="round"/>
+<g stroke-linecap="round" fill="none" opacity="1"><path d="M98 112 L98 178" stroke="#c98a62" stroke-width="23"/><path d="M98 112 L98 178" stroke="#f0c09a" stroke-width="18"/></g>
+<g stroke-linecap="round" fill="none" opacity="1"><path d="M144 112 L144 178" stroke="#c98a62" stroke-width="23"/><path d="M144 112 L144 178" stroke="#f0c09a" stroke-width="18"/></g>
+<g stroke-linecap="round" fill="none" opacity="1"><path d="M190 112 L190 178" stroke="#c98a62" stroke-width="23"/><path d="M190 112 L190 178" stroke="#f0c09a" stroke-width="18"/></g>
+<ellipse cx="98" cy="111" rx="5" ry="4" fill="#fbe3cf" opacity="1"/>
+<ellipse cx="144" cy="111" rx="5" ry="4" fill="#fbe3cf" opacity="1"/>
+<ellipse cx="190" cy="111" rx="5" ry="4" fill="#fbe3cf" opacity="1"/>
+<circle cx="98" cy="140" r="8" fill="#e10600"/><text x="98" y="144.5" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">1</text>
+<circle cx="144" cy="140" r="8" fill="#e10600"/><text x="144" y="144.5" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">2</text>
+<circle cx="190" cy="140" r="8" fill="#e10600"/><text x="190" y="144.5" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">3</text>
+<g stroke="#e10600" stroke-width="3" stroke-linecap="round"><line x1="256" y1="134" x2="256" y2="102"/></g>
+<path d="M249 100 L256 90 L263 100 Z" fill="#e10600"/>
+<g font-size="12" fill="#f3eee8"><text x="8" y="20">G-Saite, Bund 7: nach oben schieben</text><text x="8" y="35">(Richtung tiefe Saiten)</text></g>
+<g font-size="12" fill="#f3eee8"><text x="8" y="214">Ganzer Ton = klingt wie Bund 9</text><text x="8" y="229">drei Finger helfen zusammen</text></g>
+</svg>

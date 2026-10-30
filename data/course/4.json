@@ -1,0 +1,3522 @@
+{
+  "stufe": 4,
+  "title": "Solo und Blues",
+  "intro": "Du lernst deine erste Tonleiter, spielst Licks und Bendings, den 12-Takt-Blues im Shuffle und die ersten Barré-Griffe.",
+  "lessons": [
+    {
+      "n": 31,
+      "title": "Die Rock-Tonleiter",
+      "intro": [
+        "Eine Tonleiter ist eine Reihe von Tönen, die gut zusammenpassen. Fast jedes Rock-Solo nutzt die Moll-Pentatonik: nur fünf Töne pro Oktave, und es klingt kaum falsch.",
+        "Wir starten mit Box 1 der A-Moll-Pentatonik. Sie liegt ab dem 5. Bund. Auf der tiefen E-Saite, der H-Saite und der hohen e-Saite spielst du die Bünde 5 und 8, auf A-, D- und G-Saite die Bünde 5 und 7. Der Zeigefinger (1) greift Bund 5, Ringfinger (3) Bund 7 und kleiner Finger (4) Bund 8.",
+        "Der Grundton ist A, im Diagramm markiert. Auf ihm fühlt sich jede Melodie wie zu Hause an. Spiel die Box erst aufwärts, dann abwärts, ganz in Ruhe."
+      ],
+      "tips": [
+        "Der Zeigefinger bleibt in der Nähe von Bund 5, die Hand springt nicht.",
+        "Jeden Ton einzeln sauber anschlagen, Tempo kommt später.",
+        "Sprich beim Spielen leise mit: A, C, D, E, G."
+      ],
+      "diagrams": [
+        {
+          "type": "scale",
+          "name": "A-Moll-Pentatonik",
+          "startFret": 5,
+          "notes": [
+            {
+              "string": 6,
+              "fret": 5,
+              "root": true
+            },
+            {
+              "string": 6,
+              "fret": 8
+            },
+            {
+              "string": 5,
+              "fret": 5
+            },
+            {
+              "string": 5,
+              "fret": 7
+            },
+            {
+              "string": 4,
+              "fret": 5
+            },
+            {
+              "string": 4,
+              "fret": 7,
+              "root": true
+            },
+            {
+              "string": 3,
+              "fret": 5
+            },
+            {
+              "string": 3,
+              "fret": 7
+            },
+            {
+              "string": 2,
+              "fret": 5
+            },
+            {
+              "string": 2,
+              "fret": 8
+            },
+            {
+              "string": 1,
+              "fret": 5,
+              "root": true
+            },
+            {
+              "string": 1,
+              "fret": 8
+            }
+          ]
+        }
+      ],
+      "images": [],
+      "exercise": {
+        "type": "events",
+        "bpm": 70,
+        "beatsPerBar": 4,
+        "events": [
+          {
+            "beat": 0,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 5
+              }
+            ]
+          },
+          {
+            "beat": 1,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 8
+              }
+            ]
+          },
+          {
+            "beat": 2,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 5
+              }
+            ]
+          },
+          {
+            "beat": 3,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 7
+              }
+            ]
+          },
+          {
+            "beat": 4,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 5
+              }
+            ]
+          },
+          {
+            "beat": 5,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 7
+              }
+            ]
+          },
+          {
+            "beat": 6,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 3,
+                "fret": 5
+              }
+            ]
+          },
+          {
+            "beat": 7,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 3,
+                "fret": 7
+              }
+            ]
+          },
+          {
+            "beat": 8,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 2,
+                "fret": 5
+              }
+            ]
+          },
+          {
+            "beat": 9,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 2,
+                "fret": 8
+              }
+            ]
+          },
+          {
+            "beat": 10,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 1,
+                "fret": 5
+              }
+            ]
+          },
+          {
+            "beat": 11,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 1,
+                "fret": 8
+              }
+            ]
+          },
+          {
+            "beat": 12,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 1,
+                "fret": 8
+              }
+            ]
+          },
+          {
+            "beat": 13,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 1,
+                "fret": 5
+              }
+            ]
+          },
+          {
+            "beat": 14,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 2,
+                "fret": 8
+              }
+            ]
+          },
+          {
+            "beat": 15,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 2,
+                "fret": 5
+              }
+            ]
+          },
+          {
+            "beat": 16,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 3,
+                "fret": 7
+              }
+            ]
+          },
+          {
+            "beat": 17,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 3,
+                "fret": 5
+              }
+            ]
+          },
+          {
+            "beat": 18,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 7
+              }
+            ]
+          },
+          {
+            "beat": 19,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 5
+              }
+            ]
+          },
+          {
+            "beat": 20,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 7
+              }
+            ]
+          },
+          {
+            "beat": 21,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 5
+              }
+            ]
+          },
+          {
+            "beat": 22,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 8
+              }
+            ]
+          },
+          {
+            "beat": 23,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 5
+              }
+            ]
+          },
+          {
+            "beat": 24,
+            "dur": 2,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 5
+              }
+            ]
+          },
+          {
+            "beat": 26,
+            "dur": 2,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 7
+              }
+            ]
+          },
+          {
+            "beat": 28,
+            "dur": 4,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 5
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "n": 32,
+      "title": "Pentatonik-Licks",
+      "intro": [
+        "Ein Lick ist eine kurze Tonfolge, ein kleiner Musikbaustein, den du in Soli immer wieder einbaust. Alle Licks hier kommen aus der Box 1, die du schon kennst.",
+        "Lick 1 fällt von oben nach unten, Lick 2 pendelt zwischen zwei Tönen hin und her, Lick 3 steigt von unten nach oben. Jeder Lick dauert zwei Takte. Am Ende kommst du auf dem Grundton A an.",
+        "Übe jeden Lick einzeln, bis er sich wie ein Wort anfühlt. Später reihst du solche Wörter zu Sätzen aneinander."
+      ],
+      "tips": [
+        "Pausen gehören dazu, lass die Töne atmen.",
+        "Lick langsam und sauber üben, dann erst schneller.",
+        "Hör am Ende immer auf dem Grundton A auf, das klingt fertig."
+      ],
+      "diagrams": [
+        {
+          "type": "scale",
+          "name": "A-Moll-Pentatonik",
+          "startFret": 5,
+          "notes": [
+            {
+              "string": 6,
+              "fret": 5,
+              "root": true
+            },
+            {
+              "string": 6,
+              "fret": 8
+            },
+            {
+              "string": 5,
+              "fret": 5
+            },
+            {
+              "string": 5,
+              "fret": 7
+            },
+            {
+              "string": 4,
+              "fret": 5
+            },
+            {
+              "string": 4,
+              "fret": 7,
+              "root": true
+            },
+            {
+              "string": 3,
+              "fret": 5
+            },
+            {
+              "string": 3,
+              "fret": 7
+            },
+            {
+              "string": 2,
+              "fret": 5
+            },
+            {
+              "string": 2,
+              "fret": 8
+            },
+            {
+              "string": 1,
+              "fret": 5,
+              "root": true
+            },
+            {
+              "string": 1,
+              "fret": 8
+            }
+          ]
+        }
+      ],
+      "images": [],
+      "exercise": {
+        "type": "events",
+        "bpm": 75,
+        "beatsPerBar": 4,
+        "events": [
+          {
+            "beat": 0,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 1,
+                "fret": 8
+              }
+            ]
+          },
+          {
+            "beat": 0.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 1,
+                "fret": 5
+              }
+            ]
+          },
+          {
+            "beat": 1.0,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 2,
+                "fret": 8
+              }
+            ]
+          },
+          {
+            "beat": 1.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 2,
+                "fret": 5
+              }
+            ]
+          },
+          {
+            "beat": 2.0,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 3,
+                "fret": 7
+              }
+            ]
+          },
+          {
+            "beat": 4,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 3,
+                "fret": 5
+              }
+            ]
+          },
+          {
+            "beat": 4.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 7
+              }
+            ]
+          },
+          {
+            "beat": 5.0,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 5
+              }
+            ]
+          },
+          {
+            "beat": 6.0,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 7
+              }
+            ]
+          },
+          {
+            "beat": 6.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 5
+              }
+            ]
+          },
+          {
+            "beat": 7.0,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 5
+              }
+            ]
+          },
+          {
+            "beat": 8,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 3,
+                "fret": 5
+              }
+            ]
+          },
+          {
+            "beat": 8.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 3,
+                "fret": 7
+              }
+            ]
+          },
+          {
+            "beat": 9.0,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 3,
+                "fret": 5
+              }
+            ]
+          },
+          {
+            "beat": 9.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 3,
+                "fret": 7
+              }
+            ]
+          },
+          {
+            "beat": 10.0,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 7
+              }
+            ]
+          },
+          {
+            "beat": 11.0,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 5
+              }
+            ]
+          },
+          {
+            "beat": 12,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 7
+              }
+            ]
+          },
+          {
+            "beat": 12.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 5
+              }
+            ]
+          },
+          {
+            "beat": 13.0,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 7
+              }
+            ]
+          },
+          {
+            "beat": 13.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 5
+              }
+            ]
+          },
+          {
+            "beat": 14.0,
+            "dur": 2,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 5
+              }
+            ]
+          },
+          {
+            "beat": 16,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 5
+              }
+            ]
+          },
+          {
+            "beat": 16.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 8
+              }
+            ]
+          },
+          {
+            "beat": 17.0,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 5
+              }
+            ]
+          },
+          {
+            "beat": 17.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 7
+              }
+            ]
+          },
+          {
+            "beat": 18.0,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 5
+              }
+            ]
+          },
+          {
+            "beat": 18.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 7
+              }
+            ]
+          },
+          {
+            "beat": 19.0,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 3,
+                "fret": 5
+              }
+            ]
+          },
+          {
+            "beat": 19.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 3,
+                "fret": 7
+              }
+            ]
+          },
+          {
+            "beat": 20,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 2,
+                "fret": 5
+              }
+            ]
+          },
+          {
+            "beat": 20.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 2,
+                "fret": 8
+              }
+            ]
+          },
+          {
+            "beat": 21.0,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 1,
+                "fret": 5
+              }
+            ]
+          },
+          {
+            "beat": 21.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 1,
+                "fret": 8
+              }
+            ]
+          },
+          {
+            "beat": 22.0,
+            "dur": 2,
+            "notes": [
+              {
+                "string": 1,
+                "fret": 5
+              }
+            ]
+          },
+          {
+            "beat": 24,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 1,
+                "fret": 8
+              }
+            ]
+          },
+          {
+            "beat": 24.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 1,
+                "fret": 5
+              }
+            ]
+          },
+          {
+            "beat": 25.0,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 2,
+                "fret": 8
+              }
+            ]
+          },
+          {
+            "beat": 25.5,
+            "dur": 0.5,
+            "notes": [
+              {
+                "string": 2,
+                "fret": 5
+              }
+            ]
+          },
+          {
+            "beat": 26.0,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 3,
+                "fret": 7
+              }
+            ]
+          },
+          {
+            "beat": 28,
+            "dur": 4,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 5
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "n": 33,
+      "title": "Bending in der Pentatonik",
+      "intro": [
+        "Beim Bending schiebst du eine gegriffene Saite mit dem Finger nach oben, sodass der Ton höher wird. Genau so singen Rock-Gitarristen.",
+        "Greif auf der G-Saite Bund 7 mit dem Ringfinger und leg Mittel- und Zeigefinger dahinter auf die Saite für mehr Kraft. Dann schiebst du die Saite nach oben, bis der Ton so hoch klingt wie Bund 9. Das ist ein ganzer Ton. Auf der H-Saite geht es von Bund 8 auf Bund 10.",
+        "Spiel zur Kontrolle erst den Zielton im Bund 9, dann das Bending, bis beide gleich klingen. Der Ton muss nicht schnell kommen, er soll sauber ankommen."
+      ],
+      "tips": [
+        "Drei Finger auf der Saite, nicht nur einer.",
+        "Drück die Saite mit Handgelenk und Unterarm, nicht nur mit dem Finger.",
+        "Erst den Zielton anhören, dann hochziehen."
+      ],
+      "diagrams": [
+        {
+          "type": "scale",
+          "name": "A-Moll-Pentatonik",
+          "startFret": 5,
+          "notes": [
+            {
+              "string": 6,
+              "fret": 5,
+              "root": true
+            },
+            {
+              "string": 6,
+              "fret": 8
+            },
+            {
+              "string": 5,
+              "fret": 5
+            },
+            {
+              "string": 5,
+              "fret": 7
+            },
+            {
+              "string": 4,
+              "fret": 5
+            },
+            {
+              "string": 4,
+              "fret": 7,
+              "root": true
+            },
+            {
+              "string": 3,
+              "fret": 5
+            },
+            {
+              "string": 3,
+              "fret": 7
+            },
+            {
+              "string": 2,
+              "fret": 5
+            },
+            {
+              "string": 2,
+              "fret": 8
+            },
+            {
+              "string": 1,
+              "fret": 5,
+              "root": true
+            },
+            {
+              "string": 1,
+              "fret": 8
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "images/bend.svg",
+          "caption": "Die Saite wird mit drei Fingern nach oben geschoben, bis der Zielton erreicht ist.",
+          "alt": "Hand schiebt eine Saite am Griffbrett nach oben"
+        }
+      ],
+      "exercise": {
+        "type": "events",
+        "bpm": 65,
+        "beatsPerBar": 4,
+        "events": [
+          {
+            "beat": 0,
+            "dur": 4,
+            "notes": [
+              {
+                "string": 3,
+                "fret": 7,
+                "tech": "b",
+                "bend": 2
+              }
+            ]
+          },
+          {
+            "beat": 4,
+            "dur": 4,
+            "notes": [
+              {
+                "string": 3,
+                "fret": 7,
+                "tech": "b",
+                "bend": 2
+              }
+            ]
+          },
+          {
+            "beat": 8,
+            "dur": 4,
+            "notes": [
+              {
+                "string": 2,
+                "fret": 8,
+                "tech": "b",
+                "bend": 2
+              }
+            ]
+          },
+          {
+            "beat": 12,
+            "dur": 4,
+            "notes": [
+              {
+                "string": 2,
+                "fret": 8,
+                "tech": "b",
+                "bend": 2
+              }
+            ]
+          },
+          {
+            "beat": 16,
+            "dur": 2,
+            "notes": [
+              {
+                "string": 3,
+                "fret": 7,
+                "tech": "b",
+                "bend": 2
+              }
+            ]
+          },
+          {
+            "beat": 18,
+            "dur": 2,
+            "notes": [
+              {
+                "string": 2,
+                "fret": 8,
+                "tech": "b",
+                "bend": 2
+              }
+            ]
+          },
+          {
+            "beat": 20,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 3,
+                "fret": 5
+              }
+            ]
+          },
+          {
+            "beat": 21,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 3,
+                "fret": 7,
+                "tech": "b",
+                "bend": 2
+              }
+            ]
+          },
+          {
+            "beat": 22,
+            "dur": 2,
+            "notes": [
+              {
+                "string": 2,
+                "fret": 8,
+                "tech": "b",
+                "bend": 2
+              }
+            ]
+          },
+          {
+            "beat": 24,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 2,
+                "fret": 5
+              }
+            ]
+          },
+          {
+            "beat": 25,
+            "dur": 2,
+            "notes": [
+              {
+                "string": 3,
+                "fret": 7,
+                "tech": "b",
+                "bend": 2
+              }
+            ]
+          },
+          {
+            "beat": 28,
+            "dur": 4,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 7
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "n": 34,
+      "title": "Lied: Erstes Solo",
+      "intro": [
+        "Jetzt wird gespielt! Das Erste Solo ist ein kleines Gespräch: Eine Phrase stellt eine Frage, die nächste antwortet. Dazwischen hörst du Pausen.",
+        "Alle Töne stammen aus der Box 1 der A-Moll-Pentatonik. Einmal kommt ein Bending auf der G-Saite von Bund 7 nach Bund 9. Am Ende hältst du den Grundton A lang aus."
+      ],
+      "tips": [
+        "Spiel zuerst im langsamen Tempo.",
+        "Das Bending ruhig und sauber hochziehen.",
+        "Den letzten Ton schön lang halten und leicht vibrieren lassen."
+      ],
+      "diagrams": [
+        {
+          "type": "scale",
+          "name": "A-Moll-Pentatonik",
+          "startFret": 5,
+          "notes": [
+            {
+              "string": 6,
+              "fret": 5,
+              "root": true
+            },
+            {
+              "string": 6,
+              "fret": 8
+            },
+            {
+              "string": 5,
+              "fret": 5
+            },
+            {
+              "string": 5,
+              "fret": 7
+            },
+            {
+              "string": 4,
+              "fret": 5
+            },
+            {
+              "string": 4,
+              "fret": 7,
+              "root": true
+            },
+            {
+              "string": 3,
+              "fret": 5
+            },
+            {
+              "string": 3,
+              "fret": 7
+            },
+            {
+              "string": 2,
+              "fret": 5
+            },
+            {
+              "string": 2,
+              "fret": 8
+            },
+            {
+              "string": 1,
+              "fret": 5,
+              "root": true
+            },
+            {
+              "string": 1,
+              "fret": 8
+            }
+          ]
+        }
+      ],
+      "images": [],
+      "exercise": {
+        "type": "song",
+        "songId": "erstes-solo"
+      }
+    },
+    {
+      "n": 35,
+      "title": "Der 12-Takt-Blues",
+      "intro": [
+        "Das 12-Takt-Schema ist das Grundgerüst von Blues und Rock'n'Roll. Es hat zwölf Takte und nur drei Akkorde, hier A, D und E.",
+        "So läuft es in A: vier Takte A, zwei Takte D, zwei Takte A, einen Takt E, einen Takt D und zwei Takte A. Dann geht es wieder von vorn los.",
+        "Du spielst dazu die Power-Chords A5, D5 und E5, jeweils vier Viertel pro Takt. Zähl laut 1-2-3-4 und achte auf den Wechsel in Takt 5, 7, 9 und 10."
+      ],
+      "tips": [
+        "Merk dir die Form: 4 - 2 - 2 - 1 - 1 - 2.",
+        "Beim Wechsel die Hand schon vor dem Takt bewegen.",
+        "Zähl immer laut mit, du verlierst sonst schnell den Überblick."
+      ],
+      "diagrams": [
+        {
+          "name": "A5",
+          "frets": "x02xxx",
+          "fingers": "x01xxx"
+        },
+        {
+          "name": "D5",
+          "frets": "x57xxx",
+          "fingers": "x13xxx"
+        },
+        {
+          "name": "E5",
+          "frets": "02xxxx",
+          "fingers": "01xxxx"
+        }
+      ],
+      "images": [],
+      "exercise": {
+        "type": "events",
+        "bpm": 80,
+        "beatsPerBar": 4,
+        "events": [
+          {
+            "beat": 0,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 1,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 2,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 3,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 4,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 5,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 6,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 7,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 8,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 9,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 10,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 11,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 12,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 13,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 14,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 15,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 16,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 5
+              },
+              {
+                "string": 4,
+                "fret": 7
+              }
+            ],
+            "chord": "D5"
+          },
+          {
+            "beat": 17,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 5
+              },
+              {
+                "string": 4,
+                "fret": 7
+              }
+            ],
+            "chord": "D5"
+          },
+          {
+            "beat": 18,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 5
+              },
+              {
+                "string": 4,
+                "fret": 7
+              }
+            ],
+            "chord": "D5"
+          },
+          {
+            "beat": 19,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 5
+              },
+              {
+                "string": 4,
+                "fret": 7
+              }
+            ],
+            "chord": "D5"
+          },
+          {
+            "beat": 20,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 5
+              },
+              {
+                "string": 4,
+                "fret": 7
+              }
+            ],
+            "chord": "D5"
+          },
+          {
+            "beat": 21,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 5
+              },
+              {
+                "string": 4,
+                "fret": 7
+              }
+            ],
+            "chord": "D5"
+          },
+          {
+            "beat": 22,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 5
+              },
+              {
+                "string": 4,
+                "fret": 7
+              }
+            ],
+            "chord": "D5"
+          },
+          {
+            "beat": 23,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 5
+              },
+              {
+                "string": 4,
+                "fret": 7
+              }
+            ],
+            "chord": "D5"
+          },
+          {
+            "beat": 24,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 25,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 26,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 27,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 28,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 29,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 30,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 31,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 32,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 0
+              },
+              {
+                "string": 5,
+                "fret": 2
+              }
+            ],
+            "chord": "E5"
+          },
+          {
+            "beat": 33,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 0
+              },
+              {
+                "string": 5,
+                "fret": 2
+              }
+            ],
+            "chord": "E5"
+          },
+          {
+            "beat": 34,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 0
+              },
+              {
+                "string": 5,
+                "fret": 2
+              }
+            ],
+            "chord": "E5"
+          },
+          {
+            "beat": 35,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 0
+              },
+              {
+                "string": 5,
+                "fret": 2
+              }
+            ],
+            "chord": "E5"
+          },
+          {
+            "beat": 36,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 5
+              },
+              {
+                "string": 4,
+                "fret": 7
+              }
+            ],
+            "chord": "D5"
+          },
+          {
+            "beat": 37,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 5
+              },
+              {
+                "string": 4,
+                "fret": 7
+              }
+            ],
+            "chord": "D5"
+          },
+          {
+            "beat": 38,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 5
+              },
+              {
+                "string": 4,
+                "fret": 7
+              }
+            ],
+            "chord": "D5"
+          },
+          {
+            "beat": 39,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 5
+              },
+              {
+                "string": 4,
+                "fret": 7
+              }
+            ],
+            "chord": "D5"
+          },
+          {
+            "beat": 40,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 41,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 42,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 43,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 44,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 45,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 46,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 47,
+            "dur": 1,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          }
+        ]
+      }
+    },
+    {
+      "n": 36,
+      "title": "Shuffle",
+      "intro": [
+        "Beim Shuffle teilst du jeden Schlag nicht in zwei gleiche Hälften, sondern in lang und kurz, wie ein Hüpfen: lang-kurz, lang-kurz. Das ist das Triolen-Gefühl, zähl dazu 1-und-a, 2-und-a.",
+        "Der Boogie-Griff geht so: Auf dem langen Teil spielst du die leere A-Saite mit Bund 2 der D-Saite, auf dem kurzen Teil rückst du den Finger auf Bund 4. Für D und E nimmst du dasselbe Muster eine Saite weiter oben bzw. tiefer.",
+        "Spiel die Saiten mit lockerem Handgelenk. Das Ganze soll schaukeln, nicht marschieren."
+      ],
+      "tips": [
+        "Sprich beim Spielen: lang-kurz, lang-kurz.",
+        "Der Wechsel von Bund 2 auf Bund 4 ist nur eine kleine Fingerbewegung.",
+        "Locker bleiben, der Shuffle lebt vom Schaukeln."
+      ],
+      "diagrams": [
+        {
+          "name": "A5",
+          "frets": "x02xxx",
+          "fingers": "x01xxx"
+        },
+        {
+          "name": "D5",
+          "frets": "x57xxx",
+          "fingers": "x13xxx"
+        },
+        {
+          "name": "E5",
+          "frets": "02xxxx",
+          "fingers": "01xxxx"
+        }
+      ],
+      "images": [],
+      "exercise": {
+        "type": "events",
+        "bpm": 80,
+        "beatsPerBar": 4,
+        "events": [
+          {
+            "beat": 0,
+            "dur": 0.667,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 0.667,
+            "dur": 0.333,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 4
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 1,
+            "dur": 0.667,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 1.667,
+            "dur": 0.333,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 4
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 2,
+            "dur": 0.667,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 2.667,
+            "dur": 0.333,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 4
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 3,
+            "dur": 0.667,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 3.667,
+            "dur": 0.333,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 4
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 4,
+            "dur": 0.667,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 4.667,
+            "dur": 0.333,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 4
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 5,
+            "dur": 0.667,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 5.667,
+            "dur": 0.333,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 4
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 6,
+            "dur": 0.667,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 6.667,
+            "dur": 0.333,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 4
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 7,
+            "dur": 0.667,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 7.667,
+            "dur": 0.333,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 4
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 8,
+            "dur": 0.667,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              }
+            ],
+            "chord": "D5"
+          },
+          {
+            "beat": 8.667,
+            "dur": 0.333,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 4
+              }
+            ],
+            "chord": "D5"
+          },
+          {
+            "beat": 9,
+            "dur": 0.667,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              }
+            ],
+            "chord": "D5"
+          },
+          {
+            "beat": 9.667,
+            "dur": 0.333,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 4
+              }
+            ],
+            "chord": "D5"
+          },
+          {
+            "beat": 10,
+            "dur": 0.667,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              }
+            ],
+            "chord": "D5"
+          },
+          {
+            "beat": 10.667,
+            "dur": 0.333,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 4
+              }
+            ],
+            "chord": "D5"
+          },
+          {
+            "beat": 11,
+            "dur": 0.667,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              }
+            ],
+            "chord": "D5"
+          },
+          {
+            "beat": 11.667,
+            "dur": 0.333,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 4
+              }
+            ],
+            "chord": "D5"
+          },
+          {
+            "beat": 12,
+            "dur": 0.667,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              }
+            ],
+            "chord": "D5"
+          },
+          {
+            "beat": 12.667,
+            "dur": 0.333,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 4
+              }
+            ],
+            "chord": "D5"
+          },
+          {
+            "beat": 13,
+            "dur": 0.667,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              }
+            ],
+            "chord": "D5"
+          },
+          {
+            "beat": 13.667,
+            "dur": 0.333,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 4
+              }
+            ],
+            "chord": "D5"
+          },
+          {
+            "beat": 14,
+            "dur": 0.667,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              }
+            ],
+            "chord": "D5"
+          },
+          {
+            "beat": 14.667,
+            "dur": 0.333,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 4
+              }
+            ],
+            "chord": "D5"
+          },
+          {
+            "beat": 15,
+            "dur": 0.667,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 2
+              }
+            ],
+            "chord": "D5"
+          },
+          {
+            "beat": 15.667,
+            "dur": 0.333,
+            "notes": [
+              {
+                "string": 4,
+                "fret": 0
+              },
+              {
+                "string": 3,
+                "fret": 4
+              }
+            ],
+            "chord": "D5"
+          },
+          {
+            "beat": 16,
+            "dur": 0.667,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 16.667,
+            "dur": 0.333,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 4
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 17,
+            "dur": 0.667,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 17.667,
+            "dur": 0.333,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 4
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 18,
+            "dur": 0.667,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 18.667,
+            "dur": 0.333,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 4
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 19,
+            "dur": 0.667,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 19.667,
+            "dur": 0.333,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 4
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 20,
+            "dur": 0.667,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 20.667,
+            "dur": 0.333,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 4
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 21,
+            "dur": 0.667,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 21.667,
+            "dur": 0.333,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 4
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 22,
+            "dur": 0.667,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 22.667,
+            "dur": 0.333,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 4
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 23,
+            "dur": 0.667,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 23.667,
+            "dur": 0.333,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 4
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 24,
+            "dur": 0.667,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 0
+              },
+              {
+                "string": 5,
+                "fret": 2
+              }
+            ],
+            "chord": "E5"
+          },
+          {
+            "beat": 24.667,
+            "dur": 0.333,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 0
+              },
+              {
+                "string": 5,
+                "fret": 4
+              }
+            ],
+            "chord": "E5"
+          },
+          {
+            "beat": 25,
+            "dur": 0.667,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 0
+              },
+              {
+                "string": 5,
+                "fret": 2
+              }
+            ],
+            "chord": "E5"
+          },
+          {
+            "beat": 25.667,
+            "dur": 0.333,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 0
+              },
+              {
+                "string": 5,
+                "fret": 4
+              }
+            ],
+            "chord": "E5"
+          },
+          {
+            "beat": 26,
+            "dur": 0.667,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 0
+              },
+              {
+                "string": 5,
+                "fret": 2
+              }
+            ],
+            "chord": "E5"
+          },
+          {
+            "beat": 26.667,
+            "dur": 0.333,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 0
+              },
+              {
+                "string": 5,
+                "fret": 4
+              }
+            ],
+            "chord": "E5"
+          },
+          {
+            "beat": 27,
+            "dur": 0.667,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 0
+              },
+              {
+                "string": 5,
+                "fret": 2
+              }
+            ],
+            "chord": "E5"
+          },
+          {
+            "beat": 27.667,
+            "dur": 0.333,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 0
+              },
+              {
+                "string": 5,
+                "fret": 4
+              }
+            ],
+            "chord": "E5"
+          },
+          {
+            "beat": 28,
+            "dur": 0.667,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 28.667,
+            "dur": 0.333,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 4
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 29,
+            "dur": 0.667,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 29.667,
+            "dur": 0.333,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 4
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 30,
+            "dur": 0.667,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 30.667,
+            "dur": 0.333,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 4
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 31,
+            "dur": 0.667,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 2
+              }
+            ],
+            "chord": "A5"
+          },
+          {
+            "beat": 31.667,
+            "dur": 0.333,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 0
+              },
+              {
+                "string": 4,
+                "fret": 4
+              }
+            ],
+            "chord": "A5"
+          }
+        ]
+      }
+    },
+    {
+      "n": 37,
+      "title": "Lied: Blues-Shuffle in A",
+      "intro": [
+        "Du spielst jetzt den 12-Takt-Blues zweimal hintereinander im Shuffle. Das sind 24 Takte, aber nur drei Akkorde.",
+        "Im letzten Takt kommt der Schluss: erst ein kurzer E5, dann ein langer A5. Das fühlt sich an wie ein Punkt am Satzende."
+      ],
+      "tips": [
+        "Behalt die Form im Kopf: 4 - 2 - 2 - 1 - 1 - 2.",
+        "Das Shuffle-Schaukeln durchgehend halten.",
+        "Beim Schluss auf den langen A5 bewusst ausklingen lassen."
+      ],
+      "diagrams": [],
+      "images": [],
+      "exercise": {
+        "type": "song",
+        "songId": "blues-shuffle"
+      }
+    },
+    {
+      "n": 38,
+      "title": "Der Barré-Griff: F-Dur",
+      "intro": [
+        "Ein Barré ist ein Griff, bei dem ein Finger mehrere Saiten gleichzeitig niederdrückt, meistens der Zeigefinger. Dadurch wird der Zeigefinger wie ein beweglicher Sattel, und du kannst denselben Griff überall am Hals verschieben.",
+        "Beim F-Dur legst du den Zeigefinger flach über alle sechs Saiten im 1. Bund. Dreh ihn leicht zur Seite, auf die knochige Kante, denn dort liegen weniger Weichteile zwischen Finger und Saite. Mittelfinger auf G-Saite Bund 2, Ringfinger auf A-Saite Bund 3, kleiner Finger auf D-Saite Bund 3.",
+        "Drück nicht mit aller Kraft. Zieh stattdessen mit dem Arm leicht zu dir und lass den Daumen locker hinter dem Hals. Klingt eine Saite dumpf, verschieb den Zeigefinger ein kleines Stück näher an den Bundstab."
+      ],
+      "tips": [
+        "Der Zeigefinger liegt direkt hinter dem Bundstab, nicht mittendrauf.",
+        "Kraft kommt aus dem Arm, nicht aus dem Daumen.",
+        "Mach nach 30 Sekunden Pause, ein Krampf bringt nichts."
+      ],
+      "diagrams": [
+        {
+          "name": "F",
+          "frets": "133211",
+          "fingers": "134211"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/barre.svg",
+          "caption": "Der Zeigefinger liegt flach auf seiner Kante über allen Saiten.",
+          "alt": "Zeigefinger liegt als Barré quer über dem Griffbrett"
+        }
+      ],
+      "exercise": {
+        "type": "events",
+        "bpm": 55,
+        "beatsPerBar": 4,
+        "events": [
+          {
+            "beat": 0,
+            "dur": 4,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 1
+              },
+              {
+                "string": 5,
+                "fret": 3
+              },
+              {
+                "string": 4,
+                "fret": 3
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 1
+              },
+              {
+                "string": 1,
+                "fret": 1
+              }
+            ],
+            "chord": "F"
+          },
+          {
+            "beat": 4,
+            "dur": 4,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 1
+              },
+              {
+                "string": 5,
+                "fret": 3
+              },
+              {
+                "string": 4,
+                "fret": 3
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 1
+              },
+              {
+                "string": 1,
+                "fret": 1
+              }
+            ],
+            "chord": "F"
+          },
+          {
+            "beat": 8,
+            "dur": 4,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 1
+              },
+              {
+                "string": 5,
+                "fret": 3
+              },
+              {
+                "string": 4,
+                "fret": 3
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 1
+              },
+              {
+                "string": 1,
+                "fret": 1
+              }
+            ],
+            "chord": "F"
+          },
+          {
+            "beat": 12,
+            "dur": 4,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 1
+              },
+              {
+                "string": 5,
+                "fret": 3
+              },
+              {
+                "string": 4,
+                "fret": 3
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 1
+              },
+              {
+                "string": 1,
+                "fret": 1
+              }
+            ],
+            "chord": "F"
+          },
+          {
+            "beat": 16,
+            "dur": 4,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 1
+              },
+              {
+                "string": 5,
+                "fret": 3
+              },
+              {
+                "string": 4,
+                "fret": 3
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 1
+              },
+              {
+                "string": 1,
+                "fret": 1
+              }
+            ],
+            "chord": "F"
+          },
+          {
+            "beat": 20,
+            "dur": 4,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 1
+              },
+              {
+                "string": 5,
+                "fret": 3
+              },
+              {
+                "string": 4,
+                "fret": 3
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 1
+              },
+              {
+                "string": 1,
+                "fret": 1
+              }
+            ],
+            "chord": "F"
+          },
+          {
+            "beat": 24,
+            "dur": 4,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 1
+              },
+              {
+                "string": 5,
+                "fret": 3
+              },
+              {
+                "string": 4,
+                "fret": 3
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 1
+              },
+              {
+                "string": 1,
+                "fret": 1
+              }
+            ],
+            "chord": "F"
+          },
+          {
+            "beat": 28,
+            "dur": 4,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 1
+              },
+              {
+                "string": 5,
+                "fret": 3
+              },
+              {
+                "string": 4,
+                "fret": 3
+              },
+              {
+                "string": 3,
+                "fret": 2
+              },
+              {
+                "string": 2,
+                "fret": 1
+              },
+              {
+                "string": 1,
+                "fret": 1
+              }
+            ],
+            "chord": "F"
+          }
+        ]
+      }
+    },
+    {
+      "n": 39,
+      "title": "Hm und verschiebbare Barrés",
+      "intro": [
+        "Das Schöne am Barré: Du kannst denselben Griff einfach verschieben. Das F-Dur im 1. Bund wird im 3. Bund zu G-Dur, im 5. Bund zu A-Dur.",
+        "Hm ist ein Barré über die Saiten A bis e im 2. Bund, die tiefe E-Saite wird nicht gespielt. Der Zeigefinger liegt auf Bund 2, Ringfinger auf D- und G-Saite im Bund 4, Mittelfinger auf H-Saite im Bund 3. Das G-Barré im 3. Bund hat dieselbe Form wie F, nur zwei Bünde weiter.",
+        "Wechsle langsam zwischen G und Hm. Der Zeigefinger rutscht dabei nur einen Bund zurück, das ist eine kleine Bewegung."
+      ],
+      "tips": [
+        "Beim Verschieben Finger kurz entspannen, dann neu greifen.",
+        "Hm: tiefe E-Saite nicht anschlagen.",
+        "Je höher im Hals, desto kleiner die Bünde und desto leichter wird der Griff."
+      ],
+      "diagrams": [
+        {
+          "name": "G (Barré)",
+          "frets": "355433",
+          "fingers": "134211"
+        },
+        {
+          "name": "Hm",
+          "frets": "x24432",
+          "fingers": "x13421"
+        }
+      ],
+      "images": [
+        {
+          "src": "images/barre.svg",
+          "caption": "Dasselbe Barré, nur weiter oben am Hals: Es ändert sich der Akkord, nicht der Griff.",
+          "alt": "Zeigefinger als Barré an verschiedenen Bünden"
+        }
+      ],
+      "exercise": {
+        "type": "events",
+        "bpm": 60,
+        "beatsPerBar": 4,
+        "events": [
+          {
+            "beat": 0,
+            "dur": 4,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 5
+              },
+              {
+                "string": 4,
+                "fret": 5
+              },
+              {
+                "string": 3,
+                "fret": 4
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 4,
+            "dur": 4,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 4
+              },
+              {
+                "string": 3,
+                "fret": 4
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "Hm"
+          },
+          {
+            "beat": 8,
+            "dur": 4,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 5
+              },
+              {
+                "string": 4,
+                "fret": 5
+              },
+              {
+                "string": 3,
+                "fret": 4
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 12,
+            "dur": 4,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 4
+              },
+              {
+                "string": 3,
+                "fret": 4
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "Hm"
+          },
+          {
+            "beat": 16,
+            "dur": 4,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 5
+              },
+              {
+                "string": 4,
+                "fret": 5
+              },
+              {
+                "string": 3,
+                "fret": 4
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 20,
+            "dur": 4,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 4
+              },
+              {
+                "string": 3,
+                "fret": 4
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "Hm"
+          },
+          {
+            "beat": 24,
+            "dur": 4,
+            "notes": [
+              {
+                "string": 6,
+                "fret": 3
+              },
+              {
+                "string": 5,
+                "fret": 5
+              },
+              {
+                "string": 4,
+                "fret": 5
+              },
+              {
+                "string": 3,
+                "fret": 4
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 3
+              }
+            ],
+            "chord": "G"
+          },
+          {
+            "beat": 28,
+            "dur": 4,
+            "notes": [
+              {
+                "string": 5,
+                "fret": 2
+              },
+              {
+                "string": 4,
+                "fret": 4
+              },
+              {
+                "string": 3,
+                "fret": 4
+              },
+              {
+                "string": 2,
+                "fret": 3
+              },
+              {
+                "string": 1,
+                "fret": 2
+              }
+            ],
+            "chord": "Hm"
+          }
+        ]
+      }
+    },
+    {
+      "n": 40,
+      "title": "Lied: Riffwerk-Hymne",
+      "intro": [
+        "Das ist dein Abschluss: die Riffwerk-Hymne, 32 Takte mit allem, was du gelernt hast.",
+        "Es beginnt mit einem Riff aus Power-Chords. In der Strophe spielst du Palm Mute, danach kracht der Refrain mit offenen Power-Chords. Ein kurzer Pentatonik-Lick bringt Abwechslung, und das große Ende lässt du lange ausklingen."
+      ],
+      "tips": [
+        "Teil das Lied in Abschnitte und übe sie einzeln.",
+        "Palm Mute: Handkante locker am Steg.",
+        "Beim großen Ende ruhig sein und den letzten Akkord voll ausklingen lassen."
+      ],
+      "diagrams": [
+        {
+          "name": "A5",
+          "frets": "x02xxx",
+          "fingers": "x01xxx"
+        },
+        {
+          "name": "D5",
+          "frets": "x57xxx",
+          "fingers": "x13xxx"
+        },
+        {
+          "name": "E5",
+          "frets": "02xxxx",
+          "fingers": "01xxxx"
+        }
+      ],
+      "images": [],
+      "exercise": {
+        "type": "song",
+        "songId": "riffwerk-hymne"
+      }
+    }
+  ]
+}

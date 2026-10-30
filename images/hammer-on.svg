@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 240" font-family="-apple-system,system-ui,sans-serif" role="img" aria-label="Hammer-on in zwei Schritten: erst Saite anschlagen, Finger schwebt über Bund 2, dann schlägt der Finger kräftig auf und erzeugt einen neuen Ton ohne Anschlag">
+<g transform="translate(0 0)">
+<rect x="8" y="56" width="152" height="60" fill="#3a281d"/><rect x="4" y="56" width="6" height="60" fill="#efe9dd"/>
+<g fill="#c9c9c9"><rect x="42" y="56" width="4" height="60"/><rect x="82" y="56" width="4" height="60"/><rect x="122" y="56" width="4" height="60"/></g>
+<g stroke="#d9d4cc"><line x1="8" x2="160" y1="62" y2="62" stroke-width="3"/><line x1="8" x2="160" y1="72" y2="72" stroke-width="2.6"/><line x1="8" x2="160" y1="82" y2="82" stroke-width="2.2"/><line x1="8" x2="160" y1="92" y2="92" stroke-width="1.8"/><line x1="8" x2="160" y1="102" y2="102" stroke-width="1.4"/><line x1="8" x2="160" y1="112" y2="112" stroke-width="1.1"/></g>
+<g font-size="10" fill="#9b938c" text-anchor="middle"><text x="64" y="50">Bund 2</text></g>
+<g stroke-linecap="round" fill="none" opacity="0.6"><path d="M64 108 L64 172" stroke="#c98a62" stroke-width="25" stroke-dasharray="3 3"/><path d="M64 108 L64 172" stroke="#f0c09a" stroke-width="20" opacity=".35"/></g>
+<ellipse cx="64" cy="109" rx="6" ry="4.5" fill="#fbe3cf" opacity="0.6"/>
+<path d="M128 74 L148 82 L128 92 Z" fill="#e10600" stroke="#e10600" stroke-width="4" stroke-linejoin="round"/>
+<text x="108" y="134" font-size="11" fill="#9b938c">Anschlag</text>
+</g>
+<g transform="translate(172 0)">
+<rect x="8" y="56" width="152" height="60" fill="#3a281d"/><rect x="4" y="56" width="6" height="60" fill="#efe9dd"/>
+<g fill="#c9c9c9"><rect x="42" y="56" width="4" height="60"/><rect x="82" y="56" width="4" height="60"/><rect x="122" y="56" width="4" height="60"/></g>
+<g stroke="#d9d4cc"><line x1="8" x2="160" y1="62" y2="62" stroke-width="3"/><line x1="8" x2="160" y1="72" y2="72" stroke-width="2.6"/><line x1="8" x2="160" y1="82" y2="82" stroke-width="2.2"/><line x1="8" x2="160" y1="92" y2="92" stroke-width="1.8"/><line x1="8" x2="160" y1="102" y2="102" stroke-width="1.4"/><line x1="8" x2="160" y1="112" y2="112" stroke-width="1.1"/></g>
+<g font-size="10" fill="#9b938c" text-anchor="middle"><text x="64" y="50">Bund 2</text></g>
+<g stroke-linecap="round" fill="none" opacity="1"><path d="M64 84 L64 172" stroke="#c98a62" stroke-width="25"/><path d="M64 84 L64 172" stroke="#f0c09a" stroke-width="20"/></g>
+<ellipse cx="64" cy="85" rx="6" ry="4.5" fill="#fbe3cf" opacity="1"/>
+<g stroke="#e10600" stroke-width="3" stroke-linecap="round"><line x1="94" y1="14" x2="94" y2="34"/></g>
+<path d="M87 38 L94 48 L101 38 Z" fill="#e10600"/>
+</g>
+<circle cx="14" cy="18" r="9" fill="#e10600"/><text x="14" y="22.5" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">1</text>
+<circle cx="186" cy="18" r="9" fill="#e10600"/><text x="186" y="22.5" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">2</text>
+<g font-size="12" fill="#f3eee8"><text x="8" y="196">Saite anschlagen,</text><text x="8" y="211">Finger schwebt</text><text x="8" y="226">über Bund 2</text></g>
+<g font-size="12" fill="#f3eee8"><text x="180" y="196">Finger schlägt kräftig</text><text x="180" y="211">auf: neuer Ton,</text><text x="180" y="226">ohne Anschlag</text></g>
+</svg>

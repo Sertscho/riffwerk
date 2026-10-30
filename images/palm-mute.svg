@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 240" font-family="-apple-system,system-ui,sans-serif" role="img" aria-label="Palm Mute: Handkante der Anschlaghand liegt leicht auf den Saiten direkt am Steg, das Plektrum schlägt an">
+<rect x="0" y="52" width="340" height="124" rx="12" fill="#7a2e22"/>
+<rect x="276" y="56" width="22" height="116" rx="3" fill="#9a9a9a"/>
+<g stroke="#d9d4cc"><line x1="0" x2="290" y1="66" y2="66" stroke-width="3"/><line x1="0" x2="290" y1="86" y2="86" stroke-width="2.6"/><line x1="0" x2="290" y1="106" y2="106" stroke-width="2.2"/><line x1="0" x2="290" y1="126" y2="126" stroke-width="1.8"/><line x1="0" x2="290" y1="146" y2="146" stroke-width="1.4"/><line x1="0" x2="290" y1="166" y2="166" stroke-width="1.1"/></g>
+<g stroke-linecap="round" fill="none" opacity="1"><path d="M312 40 L312 196" stroke="#c98a62" stroke-width="49"/><path d="M312 40 L312 196" stroke="#f0c09a" stroke-width="44"/></g>
+<g fill="none" stroke="#c98a62" stroke-width="2" opacity=".7"><path d="M290 66 V166"/></g>
+<path d="M180 100 L208 104 L192 122 Z" fill="#e10600" stroke="#e10600" stroke-width="6" stroke-linejoin="round"/>
+<g stroke="#e10600" stroke-width="3" stroke-linecap="round"><line x1="236" y1="70" x2="236" y2="138"/></g>
+<path d="M229 140 L236 150 L243 140 Z" fill="#e10600"/>
+<g font-size="12" fill="#f3eee8"><text x="8" y="20">Handkante auf den Saiten am Steg</text></g>
+<g stroke="#e10600" stroke-width="1.5" fill="none"><path d="M200 26 L284 62"/></g><circle cx="284" cy="62" r="2.5" fill="#e10600"/>
+<text x="196" y="196" font-size="12" fill="#f3eee8" text-anchor="middle" opacity="0"></text><g font-size="12" fill="#f3eee8"><text x="8" y="200">nur leicht auflegen – sonst klingt nichts</text><text x="8" y="215">ergibt den ‚chugga‘-Sound</text></g>
+</svg>
